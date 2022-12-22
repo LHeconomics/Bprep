@@ -1,0 +1,1101 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+\preamble{%
+\providecommand{\noopsort}[1]{} \providecommand{\singleletter}[1]{#1}
+  \providecommand{\noopsort}[1]{} \providecommand{\singleletter}[1]{#1}
+}
+
+  \entry{Almadi2018-lx}{article}{}
+    \name{author}{6}{}{%
+      {{hash=AMA}{%
+         family={Almadi},
+         familyi={A\bibinitperiod},
+         given={Majid\bibnamedelima A},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=AO}{%
+         family={Alharbi},
+         familyi={A\bibinitperiod},
+         given={Othman},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=AN}{%
+         family={Azzam},
+         familyi={A\bibinitperiod},
+         given={Nahla},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Altayeb},
+         familyi={A\bibinitperiod},
+         given={Mohannad},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={Thaniah},
+         familyi={T\bibinitperiod},
+         given={Salem},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Aljebreen},
+         familyi={A\bibinitperiod},
+         given={Abdulrahman},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \keyw{Colonoscopy; diverticulosis; endoscopy; gastrointestinal bleeding;
+  lower gastrointestinal bleeding; screening;Bowel\_Prep}
+    \strng{namehash}{AMA+1}
+    \strng{fullhash}{AMAAOANAMTSAA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{abstract}{%
+    BACKGROUND/AIMS: Optimal bowel preparation is essential for a complete
+  high-quality colonoscopy. We sought to determine whether an inpatient, as
+  opposed to an ambulatory setting, would affect the quality of bowel
+  preparation. PATIENTS AND METHODS: A retrospective chart review was conducted
+  in a tertiary care university hospital. We collected demographic data from
+  consecutive patients who underwent a colonoscopy for any reason between
+  August 2007 and April 2012. RESULTS: A total of 2999 patients were included
+  in the study with a mean age of 50.36 (95\%CI; 49.79-50.94). Males comprised
+  58.12\%. Ambulatory patients had a higher rate of good bowel preparations
+  (67.23\% vs. 56.64\%, P value < 0.01), a lower rate of poor bowel
+  preparations (18.22\% vs. 27.14\%, P value < 0.01), and a higher rate of
+  colonoscopy completion (86.79\% vs. 77.59\%, P value < 0.01). There was no
+  difference between the rates of polyps detected (18.90\% vs. 20.83\%, P value
+  = 0.22). The univariabe modeling factors associated with a sub-optimal bowel
+  preparation were age OR 1.02 (95\% CI, 1.01 to 1.02), chronic kidney disease
+  OR 2.34 (95\% CI, 1.12 to 4.88), diabetes mellitus OR 2.00 (95\% CI, 1.50 to
+  2.68), hypertension OR 1.48 (95\% CI, 1.11 to 1.97), anemia OR 1.81 (95\% CI,
+  1.33 to 2.47), and weight loss OR 1.41 (95\% CI, 1.01 to 1.96). Better bowel
+  preparation was associated with colonoscopies performed in the outpatient
+  setting OR 0.63 (95\% CI, 0.54 to 0.73). CONCLUSION: Bowel preparation
+  quality is affected by the setting in which it is performed. This result
+  suggests that, when appropriate, colonoscopies should be performed on an
+  outpatient basis. Further studies are required to replicate this finding.%
+    }
+    \verb{doi}
+    \verb 10.4103/sjg.SJG\_485\_17
+    \endverb
+    \field{issn}{1319-3767, 1998-4049}
+    \field{number}{2}
+    \field{pages}{93\bibrangedash 99}
+    \field{title}{Bowel Preparation Quality Between Hospitalized Patients and
+  Outpatient Colonoscopies}
+    \verb{url}
+    \verb http://dx.doi.org/10.4103/sjg.SJG_485_17
+    \endverb
+    \field{volume}{24}
+    \verb{file}
+    \verb All-Papers/A/Almadi-et-al.-2018-Bowel-Preparation-Quality-Between-Hos
+    \verb pitalized-Patients-and-Outpatient-Colonoscopies.pdf
+    \endverb
+    \field{journaltitle}{Saudi journal of gastroenterology: official journal of
+  the Saudi Gastroenterology Association}
+    \field{year}{2018}
+  \endentry
+
+  \entry{American_Society_of_Anesthesiologists_Committee2011-sw}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{American Society of Anesthesiologists Committee}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \keyw{Bowel\_Prep}
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1097/ALN.0b013e3181fcbfd9
+    \endverb
+    \field{issn}{0003-3022, 1528-1175}
+    \field{number}{3}
+    \field{pages}{495\bibrangedash 511}
+    \field{title}{Practice Guidelines for Preoperative Fasting and the Use of
+  Pharmacologic Agents to Reduce the Risk of Pulmonary Aspiration: Application
+  to Healthy Patients Undergoing Elective Procedures: An Updated Report by the
+  American Society of Anesthesiologists Committee on Standards and Practice
+  Parameters}
+    \verb{url}
+    \verb http://dx.doi.org/10.1097/ALN.0b013e3181fcbfd9
+    \endverb
+    \field{volume}{114}
+    \verb{file}
+    \verb All-Papers/A/American-Society-of-Anesthesiologists...-2011-Practice-G
+    \verb uidelines-for-...-lication-to-Healthy-Patients-Undergoing-Elective-Pr
+    \verb ocedures-An-Upd[...]
+    \endverb
+    \field{journaltitle}{Anesthesiology}
+    \field{month}{03}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Chung2009-kt}{article}{}
+    \name{author}{10}{}{%
+      {{hash=CYW}{%
+         family={Chung},
+         familyi={C\bibinitperiod},
+         given={Yong\bibnamedelima Woo},
+         giveni={Y\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=HDS}{%
+         family={Han},
+         familyi={H\bibinitperiod},
+         given={Dong\bibnamedelima Soo},
+         giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=PKH}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Kwang\bibnamedelima Hyuk},
+         giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=KKO}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Kyoung\bibnamedelima Oh},
+         giveni={K\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+      {{hash=PCH}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Cheol\bibnamedelima Hee},
+         giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Hahn},
+         familyi={H\bibinitperiod},
+         given={Taeho},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=YKS}{%
+         family={Yoo},
+         familyi={Y\bibinitperiod},
+         given={Kyo-Sang},
+         giveni={K\bibinithyphendelim S\bibinitperiod},
+      }}%
+      {{hash=PSH}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Sang\bibnamedelima Hoon},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=KJH}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Jong\bibnamedelima Hyeok},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=PCK}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Choong\bibnamedelima Kee},
+         giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \keyw{Bowel\_Prep}
+    \strng{namehash}{CYW+1}
+    \strng{fullhash}{CYWHDSPKHKKOPCHHTYKSPSHKJHPCK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    BACKGROUND: Inadequate bowel preparation is important because it can result
+  in missed lesions, cancelled procedures, increased procedural time, and a
+  potential increase in complication rates. This prospective study was designed
+  to look at the quality of colon preparation using polyethylene glycol
+  solution and evaluate potential associations between specific patient
+  characteristics and inadequate bowel preparation. METHODS: A total of 362
+  patients who were compliant with preparation instructions were enrolled. All
+  colonoscopic examinations were performed by an experienced endoscopist and
+  the quality of the preparation was graded by the endoscopist (excellent to
+  poor). Patient demographic and medical history information was gathered
+  before the procedure. Possible predictors of inadequate colonic preparation
+  were analyzed using univariate statistics and multivariate logistic
+  regression models. RESULTS: An inadequate bowel preparation was reported in
+  28.2\% of observed colonoscopies. In multivariate regression analysis, age
+  greater than 60 years [odds ratio (OR) 2.8, 95\% confidence interval (CI)
+  1.04-7.4], a history of diabetes (OR 8.6, 95\% CI 6.3-19.4), a history of
+  appendectomy (OR 4.6, 95\% CI 2.0-10.5), a history of colorectal resection
+  (OR 7.5, 95\% CI 3.4-17.6), and a history of hysterectomy (OR 3.4, 95\% CI
+  1.1-10.4) were independent predictors of an inadequate colon preparation.
+  CONCLUSIONS: This prospective study identified several factors that may
+  predict inadequate polyethylene glycol preparation independent of compliance
+  with preparation instructions and procedure starting time. This result may
+  help to identify patients at an increased risk for inadequate bowel
+  preparation for whom alternative preparation protocols would be beneficial.%
+    }
+    \verb{doi}
+    \verb 10.1097/MCG.0b013e3181662442
+    \endverb
+    \field{issn}{0192-0790, 1539-2031}
+    \field{number}{5}
+    \field{pages}{448\bibrangedash 452}
+    \field{title}{Patient Factors Predictive of Inadequate Bowel Preparation
+  Using Polyethylene Glycol: A Prospective Study in Korea}
+    \verb{url}
+    \verb http://dx.doi.org/10.1097/MCG.0b013e3181662442
+    \endverb
+    \field{volume}{43}
+    \verb{file}
+    \verb All-Papers/C/Chung-et-al.-2009-Patient-Factors-Predictive-of-Inadequa
+    \verb te-Bowel-Preparation-Using-Polyethylene-Glycol-A-Prospective-Study-in
+    \verb -Korea.pdf
+    \endverb
+    \field{journaltitle}{Journal of clinical gastroenterology}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Garber2019-rw}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=GA}{%
+         family={Garber},
+         familyi={G\bibinitperiod},
+         given={Ari},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{Bowel\_Prep}
+    \strng{namehash}{GA1}
+    \strng{fullhash}{GA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{doi}
+    \verb 10.12788/jhm.3173
+    \endverb
+    \field{title}{Modifiable Factors Associated with Quality of Bowel
+  Preparation Among Hospitalized Patients Undergoing Colonoscopy}
+    \verb{url}
+    \verb http://dx.doi.org/10.12788/jhm.3173
+    \endverb
+    \verb{file}
+    \verb All-Papers/G/Garber-2019-Modifiable-Factors-Associated-with-Quality-o
+    \verb f-Bowel-Preparation-Among-Hospitalized-Patients-Undergoing-Colonoscop
+    \verb y.pdf
+    \endverb
+    \field{journaltitle}{Journal of Hospital Medicine}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Hautefeuille2014-yy}{misc}{}
+    \name{author}{9}{}{%
+      {{hash=HG}{%
+         family={Hautefeuille},
+         familyi={H\bibinitperiod},
+         given={Ga{\"e}lle},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Lapuelle},
+         familyi={L\bibinitperiod},
+         given={Jean},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Chaussade},
+         familyi={C\bibinitperiod},
+         given={Stanislas},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Ponchon},
+         familyi={P\bibinitperiod},
+         given={Thierry},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=RMB}{%
+         family={Richard\bibnamedelima Molard},
+         familyi={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+         given={B},
+         giveni={B},
+      }}%
+      {{hash=CP}{%
+         family={Coulom},
+         familyi={C\bibinitperiod},
+         given={Pierre},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LR}{%
+         family={Laugier},
+         familyi={L\bibinitperiod},
+         given={Ren{\'e}},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=HF}{%
+         family={Henri},
+         familyi={H\bibinitperiod},
+         given={Franck},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=CG}{%
+         family={Cadiot},
+         familyi={C\bibinitperiod},
+         given={Guillaume},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \keyw{Bowel\_Prep}
+    \strng{namehash}{HG+1}
+    \strng{fullhash}{HGLJCSPTRMBCPLRHFCG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.1177/2050640613518200
+    \endverb
+    \field{number}{1}
+    \field{pages}{22\bibrangedash 29}
+    \field{title}{Factors Related to Bowel Cleansing Failure Before
+  Colonoscopy: Results of the {PACOME} Study}
+    \verb{url}
+    \verb http://dx.doi.org/10.1177/2050640613518200
+    \endverb
+    \field{volume}{2}
+    \verb{file}
+    \verb All-Papers/H/Hautefeuille-et-al.-2014-Factors-Related-to-Bowel-Cleans
+    \verb ing-Failure-Before-Colonoscopy-Results-of-the-PACOME-Study.pdf
+    \endverb
+    \field{journaltitle}{United European Gastroenterology Journal}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Johnson2014-nm}{misc}{}
+    \name{author}{12}{}{%
+      {{hash=JDA}{%
+         family={Johnson},
+         familyi={J\bibinitperiod},
+         given={David\bibnamedelima A},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=BAN}{%
+         family={Barkun},
+         familyi={B\bibinitperiod},
+         given={Alan\bibnamedelima N},
+         giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=CLB}{%
+         family={Cohen},
+         familyi={C\bibinitperiod},
+         given={Larry\bibnamedelima B},
+         giveni={L\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=DJA}{%
+         family={Dominitz},
+         familyi={D\bibinitperiod},
+         given={Jason\bibnamedelima A},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=KT}{%
+         family={Kaltenbach},
+         familyi={K\bibinitperiod},
+         given={Tonya},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Martel},
+         familyi={M\bibinitperiod},
+         given={Myriam},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RDJ}{%
+         family={Robertson},
+         familyi={R\bibinitperiod},
+         given={Douglas\bibnamedelima J},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=RBC}{%
+         family={Richard\bibnamedelima Boland},
+         familyi={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+         given={C},
+         giveni={C},
+      }}%
+      {{hash=GFM}{%
+         family={Giardello},
+         familyi={G\bibinitperiod},
+         given={Frances\bibnamedelima M},
+         giveni={F\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=LDA}{%
+         family={Lieberman},
+         familyi={L\bibinitperiod},
+         given={David\bibnamedelima A},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=LTR}{%
+         family={Levin},
+         familyi={L\bibinitperiod},
+         given={Theodore\bibnamedelima R},
+         giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=RDK}{%
+         family={Rex},
+         familyi={R\bibinitperiod},
+         given={Douglas\bibnamedelima K},
+         giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \keyw{Bowel\_Prep}
+    \strng{namehash}{JDA+1}
+    \strng{fullhash}{JDABANCLBDJAKTMMRDJRBCGFMLDALTRRDK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \verb{doi}
+    \verb 10.1053/j.gastro.2014.07.002
+    \endverb
+    \field{number}{4}
+    \field{pages}{903\bibrangedash 924}
+    \field{title}{Optimizing Adequacy of Bowel Cleansing for Colonoscopy:
+  Recommendations From the {US} {Multi-Society} Task Force on Colorectal
+  Cancer}
+    \verb{url}
+    \verb http://dx.doi.org/10.1053/j.gastro.2014.07.002
+    \endverb
+    \field{volume}{147}
+    \verb{file}
+    \verb All-Papers/J/Johnson-et-al.-2014-Optimizing-Adequacy-of-Bowel-Cleansi
+    \verb ng-for-Colonos...-mmendations-From-the-US-Multi-Society-Task-Force-on
+    \verb -Colorectal-Cancer.pdf
+    \endverb
+    \field{journaltitle}{Gastroenterology}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Lai2009-xr}{misc}{}
+    \name{author}{5}{}{%
+      {{hash=LEJ}{%
+         family={Lai},
+         familyi={L\bibinitperiod},
+         given={Edwin\bibnamedelima J},
+         giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=CAH}{%
+         family={Calderwood},
+         familyi={C\bibinitperiod},
+         given={Audrey\bibnamedelima H},
+         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=DG}{%
+         family={Doros},
+         familyi={D\bibinitperiod},
+         given={Gheorghe},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=FOK}{%
+         family={Fix},
+         familyi={F\bibinitperiod},
+         given={Oren\bibnamedelima K},
+         giveni={O\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=JBC}{%
+         family={Jacobson},
+         familyi={J\bibinitperiod},
+         given={Brian\bibnamedelima C},
+         giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \keyw{Bowel\_Prep}
+    \strng{namehash}{LEJ+1}
+    \strng{fullhash}{LEJCAHDGFOKJBC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{doi}
+    \verb 10.1016/j.gie.2008.05.057
+    \endverb
+    \field{number}{3}
+    \field{pages}{620\bibrangedash 625}
+    \field{title}{The Boston Bowel Preparation Scale: A Valid and Reliable
+  Instrument for Colonoscopy-oriented Research}
+    \verb{url}
+    \verb http://dx.doi.org/10.1016/j.gie.2008.05.057
+    \endverb
+    \field{volume}{69}
+    \verb{file}
+    \verb All-Papers/L/Lai-et-al.-2009-The-Boston-Bowel-Preparation-Scale-A-Val
+    \verb id-and-Reliable-Instrument-for-Colonoscopy-oriented-Research.pdf
+    \endverb
+    \field{journaltitle}{Gastrointestinal Endoscopy}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Lebwohl2010-ti}{misc}{}
+    \name{author}{3}{}{%
+      {{hash=LB}{%
+         family={Lebwohl},
+         familyi={L\bibinitperiod},
+         given={Benjamin},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=WTC}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Timothy\bibnamedelima C},
+         giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=NAI}{%
+         family={Neugut},
+         familyi={N\bibinitperiod},
+         given={Alfred\bibnamedelima I},
+         giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+    }
+    \keyw{Bowel\_Prep}
+    \strng{namehash}{LBWTCNAI1}
+    \strng{fullhash}{LBWTCNAI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{doi}
+    \verb 10.1007/s10620-009-1079-7
+    \endverb
+    \field{number}{7}
+    \field{pages}{2014\bibrangedash 2020}
+    \field{title}{Socioeconomic and Other Predictors of Colonoscopy Preparation
+  Quality}
+    \verb{url}
+    \verb http://dx.doi.org/10.1007/s10620-009-1079-7
+    \endverb
+    \field{volume}{55}
+    \verb{file}
+    \verb All-Papers/L/Lebwohl-et-al.-2010-Socioeconomic-and-Other-Predictors-o
+    \verb f-Colonoscopy-Preparation-Quality.pdf
+    \endverb
+    \field{journaltitle}{Digestive Diseases and Sciences}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Ness2001-ff}{article}{}
+    \name{author}{1}{}{%
+      {{hash=NR}{%
+         family={Ness},
+         familyi={N\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \list{publisher}{1}{%
+      {Ovid Technologies (Wolters Kluwer Health)}%
+    }
+    \keyw{Bowel\_Prep}
+    \strng{namehash}{NR1}
+    \strng{fullhash}{NR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2001}
+    \field{labeldatesource}{}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{abstract}{%
+    OBJECTIVE: Inadequate preparation of the bowel for colonoscopy can result
+  in both missed pathological lesions and cancelled procedures. We looked
+  prospectively at the quality of colonic preparation and evaluated potential
+  associations between specific patient characteristics and inadequate colonic
+  preparation. METHODS: Data were gathered on consecutive patients presenting
+  for colonoscopy who received either a polyethylene glycol lavage or oral
+  sodium phosphate bowel preparation. Patient demographic and medical history
+  information was gathered before scheduled colonoscopy. The endoscopist
+  evaluated the preparation quality during the procedure. Complete data were
+  gathered on 649 of 714 eligible patients (90.8\%). Possible predictors of
+  inadequate colonic preparation were analyzed using univariate statistics and
+  multivariate logistic regression models. RESULTS: An inadequate colonic
+  preparation was reported in 21.7\% of observed colonoscopies. Only 18\% of
+  patients with an inadequate colonic preparation reported a failure to
+  adequately follow preparation instructions. A later colonoscopy starting
+  time, a reported failure to follow preparation instructions, inpatient
+  status, a procedural indication of constipation, taking tricyclic
+  antidepressants, male gender, and a history of cirrhosis, stroke or dementia
+  were all independent predictors of an inadequate colon preparation (all p <
+  0.05). A procedural indication of previous polypectomy was a negative
+  predictor of inadequate colonic preparation (p < 0.05). CONCLUSION: Several
+  patient characteristics were significantly associated with colonic
+  preparation quality independent of preparation type, compliance with
+  preparation instructions, and procedure starting time. This information may
+  help to identify patients at an increased risk for inadequate colonic
+  preparation for whom alternative preparation protocols would be appropriate.%
+    }
+    \verb{doi}
+    \verb 10.1016/s0002-9270(01)02437-6
+    \endverb
+    \field{issn}{0002-9270, 1572-0241}
+    \field{number}{6}
+    \field{pages}{1797\bibrangedash 1802}
+    \field{title}{Predictors of Inadequate Bowel Preparation for Colonoscopy}
+    \verb{url}
+    \verb https://www.ncbi.nlm.nih.gov/pubmed/11419832
+    \endverb
+    \field{volume}{96}
+    \verb{file}
+    \verb All-Papers/N/Ness-2001-Predictors-of-Inadequate-Bowel-Preparation-for
+    \verb -Colonoscopy.pdf
+    \endverb
+    \field{journaltitle}{The American journal of gastroenterology}
+    \field{month}{06}
+    \field{year}{2001}
+  \endentry
+
+  \entry{Perla2011-dp}{article}{}
+    \name{author}{3}{}{%
+      {{hash=PRJ}{%
+         family={Perla},
+         familyi={P\bibinitperiod},
+         given={Rocco\bibnamedelima J},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=PLP}{%
+         family={Provost},
+         familyi={P\bibinitperiod},
+         given={Lloyd\bibnamedelima P},
+         giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=MSK}{%
+         family={Murray},
+         familyi={M\bibinitperiod},
+         given={Sandy\bibnamedelima K},
+         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \keyw{Bowel\_Prep}
+    \strng{namehash}{PRJPLPMSK1}
+    \strng{fullhash}{PRJPLPMSK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{abstract}{%
+    BACKGROUND: Those working in healthcare today are challenged more than ever
+  before to quickly and efficiently learn from data to improve their services
+  and delivery of care. There is broad agreement that healthcare professionals
+  working on the front lines benefit greatly from the visual display of data
+  presented in time order. AIM: To describe the run chart-an analytical tool
+  commonly used by professionals in quality improvement but underutilised in
+  healthcare. METHODS: A standard approach to the construction, use and
+  interpretation of run charts for healthcare applications is developed based
+  on the statistical process control literature. DISCUSSION: Run charts allow
+  us to understand objectively if the changes we make to a process or system
+  over time lead to improvements and do so with minimal mathematical
+  complexity. This method of analyzing and reporting data is of greater value
+  to improvement projects and teams than traditional aggregate summary
+  statistics that ignore time order. Because of its utility and simplicity, the
+  run chart has wide potential application in healthcare for practitioners and
+  decision-makers. Run charts also provide the foundation for more
+  sophisticated methods of analysis and learning such as Shewhart (control)
+  charts and planned experimentation.%
+    }
+    \verb{doi}
+    \verb 10.1136/bmjqs.2009.037895
+    \endverb
+    \field{issn}{2044-5415, 2044-5423}
+    \field{number}{1}
+    \field{pages}{46\bibrangedash 51}
+    \field{title}{The Run Chart: A Simple Analytical Tool for Learning from
+  Variation in Healthcare Processes}
+    \verb{url}
+    \verb http://dx.doi.org/10.1136/bmjqs.2009.037895
+    \endverb
+    \field{volume}{20}
+    \verb{file}
+    \verb All-Papers/P/Perla-et-al.-2011-The-Run-Chart-A-Simple-Analytical-Tool
+    \verb -for-Learning-from-Variation-in-Healthcare-Processes.pdf
+    \endverb
+    \field{journaltitle}{BMJ quality \& safety}
+    \field{month}{01}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Reilly2004-tz}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RT}{%
+         family={Reilly},
+         familyi={R\bibinitperiod},
+         given={Timothy},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=WG}{%
+         family={Walker},
+         familyi={W\bibinitperiod},
+         given={Grace},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \keyw{Bowel\_Prep}
+    \strng{namehash}{RTWG1}
+    \strng{fullhash}{RTWG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    In patients often require repeated colonoscopy as a result of poor colonic
+  preparation. A study of 101 inpatients was conducted to determine the most
+  effective bowel preparation strategies. Results suggest patients on certain
+  medications and with certain medical histories react differently to bowel
+  preparation. Patients with diabetes, renal disease, chronic obstructive
+  pulmonary disease, or chronic constipation should receive a more aggressive
+  preparation to obtain optimal results. Likewise, patients who are taking
+  narcotics and laxatives need to be identified and can be expected to require
+  additional preparation to be properly cleansed. Clear liquid diet prior to
+  the administration of the bowel preparation was the only diet modification
+  that affected quality of preparation. The optimal bowel preparation was a
+  6-liter Golytely preparation along with a secondary preparation (e.g., tap
+  water enema, Fleets enema, Dulcolax tablets). Results showed a 50\%
+  satisfactory rating of bowel preparation was achieved in patients who took
+  3/4 to all of their preparation. The best results were obtained when the
+  colonoscopy procedure was conducted within 6-11 hours of bowel preparation
+  completion.%
+    }
+    \verb{doi}
+    \verb 10.1097/00001610-200405000-00004
+    \endverb
+    \field{issn}{1042-895X}
+    \field{number}{3}
+    \field{pages}{115\bibrangedash 117}
+    \field{title}{Reasons for Poor Colonic Preparation with Inpatients}
+    \verb{url}
+    \verb http://dx.doi.org/10.1097/00001610-200405000-00004
+    \endverb
+    \field{volume}{27}
+    \verb{file}
+    \verb All-Papers/R/Reilly-and-Walker-2004-Reasons-for-Poor-Colonic-Preparat
+    \verb ion-with-Inpatients.pdf
+    \endverb
+    \field{journaltitle}{Gastroenterology nursing: the official journal of the
+  Society of Gastroenterology Nurses and Associates}
+    \field{year}{2004}
+  \endentry
+
+  \entry{Saltzman2015-ir}{article}{}
+    \name{author}{24}{}{%
+      {{hash=SJR}{%
+         family={Saltzman},
+         familyi={S\bibinitperiod},
+         given={John\bibnamedelima R},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=CBD}{%
+         family={Cash},
+         familyi={C\bibinitperiod},
+         given={Brooks\bibnamedelima D},
+         giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=PSF}{%
+         family={Pasha},
+         familyi={P\bibinitperiod},
+         given={Shabana\bibnamedelima F},
+         giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=EDS}{%
+         family={Early},
+         familyi={E\bibinitperiod},
+         given={Dayna\bibnamedelima S},
+         giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=MVR}{%
+         family={Muthusamy},
+         familyi={M\bibinitperiod},
+         given={V\bibnamedelima Raman},
+         giveni={V\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=KMA}{%
+         family={Khashab},
+         familyi={K\bibinitperiod},
+         given={Mouen\bibnamedelima A},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=CKV}{%
+         family={Chathadi},
+         familyi={C\bibinitperiod},
+         given={Krishnavel\bibnamedelima V},
+         giveni={K\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=FRD}{%
+         family={Fanelli},
+         familyi={F\bibinitperiod},
+         given={Robert\bibnamedelima D},
+         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=CV}{%
+         family={Chandrasekhara},
+         familyi={C\bibinitperiod},
+         given={Vinay},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=LJR}{%
+         family={Lightdale},
+         familyi={L\bibinitperiod},
+         given={Jenifer\bibnamedelima R},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=FL}{%
+         family={Fonkalsrud},
+         familyi={F\bibinitperiod},
+         given={Lisa},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SAK}{%
+         family={Shergill},
+         familyi={S\bibinitperiod},
+         given={Amandeep\bibnamedelima K},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=HJH}{%
+         family={Hwang},
+         familyi={H\bibinitperiod},
+         given={Joo\bibnamedelima Ha},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=DGA}{%
+         family={Decker},
+         familyi={D\bibinitperiod},
+         given={G\bibnamedelima Anton},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=JTL}{%
+         family={Jue},
+         familyi={J\bibinitperiod},
+         given={Terry\bibnamedelima L},
+         giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Sharaf},
+         familyi={S\bibinitperiod},
+         given={Ravi},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=FDA}{%
+         family={Fisher},
+         familyi={F\bibinitperiod},
+         given={Deborah\bibnamedelima A},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=EJA}{%
+         family={Evans},
+         familyi={E\bibinitperiod},
+         given={John\bibnamedelima A},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=FK}{%
+         family={Foley},
+         familyi={F\bibinitperiod},
+         given={Kimberly},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Shaukat},
+         familyi={S\bibinitperiod},
+         given={Aasma},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=EMA}{%
+         family={Eloubeidi},
+         familyi={E\bibinitperiod},
+         given={Mohamad\bibnamedelima A},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=FAL}{%
+         family={Faulx},
+         familyi={F\bibinitperiod},
+         given={Ashley\bibnamedelima L},
+         giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=WA}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Amy},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=ARD}{%
+         family={Acosta},
+         familyi={A\bibinitperiod},
+         given={Ruben\bibnamedelima D},
+         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \keyw{Bowel\_Prep}
+    \strng{namehash}{SJR+1}
+  \strng{fullhash}{SJRCBDPSFEDSMVRKMACKVFRDCVLJRFLSAKHJHDGAJTLSRFDAEJAFKSAEMAFALWAARD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1016/j.gie.2014.09.048
+    \endverb
+    \field{issn}{0016-5107}
+    \field{number}{4}
+    \field{pages}{781\bibrangedash 794}
+    \field{title}{Bowel Preparation Before Colonoscopy}
+    \verb{url}
+    \verb https://doi.org/10.1016/j.gie.2014.09.048
+    \endverb
+    \field{volume}{81}
+    \verb{file}
+    \verb All-Papers/S/Saltzman-et-al.-2015-Bowel-Preparation-Before-Colonoscop
+    \verb y.pdf
+    \endverb
+    \field{journaltitle}{Gastrointestinal endoscopy}
+    \field{month}{04}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Yadlapati2018-kg}{misc}{}
+    \name{author}{9}{}{%
+      {{hash=YR}{%
+         family={Yadlapati},
+         familyi={Y\bibinitperiod},
+         given={Rena},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=JER}{%
+         family={Johnston},
+         familyi={J\bibinitperiod},
+         given={Elyse\bibnamedelima R},
+         giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=GAB}{%
+         family={Gluskin},
+         familyi={G\bibinitperiod},
+         given={Adam\bibnamedelima B},
+         giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=GDL}{%
+         family={Gregory},
+         familyi={G\bibinitperiod},
+         given={Dyanna\bibnamedelima L},
+         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=CR}{%
+         family={Cyrus},
+         familyi={C\bibinitperiod},
+         given={Rachel},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=WL}{%
+         family={Werth},
+         familyi={W\bibinitperiod},
+         given={Lindsay},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=CJD}{%
+         family={Ciolino},
+         familyi={C\bibinitperiod},
+         given={Jody\bibnamedelima D},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=GDP}{%
+         family={Grande},
+         familyi={G\bibinitperiod},
+         given={David\bibnamedelima P},
+         giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=KRN}{%
+         family={Keswani},
+         familyi={K\bibinitperiod},
+         given={Rajesh\bibnamedelima N},
+         giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \keyw{Bowel\_Prep}
+    \strng{namehash}{YR+1}
+    \strng{fullhash}{YRJERGABGDLCRWLCJDGDPKRN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{sortinit}{Y}
+    \field{sortinithash}{Y}
+    \verb{doi}
+    \verb 10.1097/mcg.0000000000000849
+    \endverb
+    \field{number}{8}
+    \field{pages}{709\bibrangedash 714}
+    \field{title}{An Automated Inpatient Split-dose Bowel Preparation System
+  Improves Colonoscopy Quality and Reduces Repeat Procedures}
+    \verb{url}
+    \verb http://dx.doi.org/10.1097/mcg.0000000000000849
+    \endverb
+    \field{volume}{52}
+    \verb{file}
+    \verb All-Papers/Y/Yadlapati-et-al.-2018-An-Automated-Inpatient-Split-dose-
+    \verb Bowel-Preparation-System-Improves-Colonoscopy-Quality-and-Reduces-Rep
+    \verb eat-Procedures.pdf
+    \endverb
+    \field{journaltitle}{Journal of Clinical Gastroenterology}
+    \field{year}{2018}
+  \endentry
+\enddatalist
+\endinput

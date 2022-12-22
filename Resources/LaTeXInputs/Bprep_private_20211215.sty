@@ -1,0 +1,32 @@
+%\input{\ResourcesDir/owner} % Owned by llorracc (draft) or econ-ark (published) ?
+% Default definitions that must be renewcommanded to override in main file
+%\providecommand{\onlyinsubfile}{}\renewcommand{\onlyinsubfile}[1]{#1}
+%\providecommand{\notinsubfile}{}\renewcommand{\notinsubfile}[1]{}
+
+% Implement a standard setup and shortcuts, e.g. for the \CRRA
+% Configure various useful things, like boolean{Web}
+
+
+% % https://tex.stackexchange.com/questions/389473/redefine-section-to-include-hypertarget-and-tooltip
+% % Automatically create hypertargets for sections
+% \DefineFamilyKey[.section]{KOMAarg}{hypertarget}{%
+%   \hypertarget{#1}{}%
+% }
+% \DefineFamilyMember[.subsection]{KOMAarg}
+% \DefineFamilyKey[.subsection]{KOMAarg}{hypertarget}{%
+%   \hypertarget{#1}{}%
+% }
+% \DefineFamilyMember[.subsubsection]{KOMAarg}
+% \DefineFamilyKey[.subsubsection]{KOMAarg}{hypertarget}{%
+%   \hypertarget{#1}{}%
+% }
+
+% Layers at top of page make no sense if there is no page
+%\ifthenelse{\boolean{Web}}{}{\usepackage{scrlayer-scrpage}}
+
+% Some of the tables would be too large to fit on a page unless
+% shrunken.  Provide reusable register space for shrinking:
+% \newsavebox{\TblBox}
+% \newlength{\TblShrunk}
+% \newsavebox{\TblShrunkBox}
+% \newcommand{\cNrmAvg}{\mathfrak{c}}

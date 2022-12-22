@@ -1,0 +1,66 @@
+% Table 3
+%\documentclass[8pt, letterpaper]{article}
+%\begin{document}
+\hypertarget{Potential problems and solutions at patient, nurse, physician and system level for the bowel preparation process for inpatient colonoscopy}{}
+ \begin{flushleft}
+ \begin{table}
+  \caption{Potential problems and solutions at patient, nurse, physician and system level for the bowel preparation process for inpatient colonoscopy}
+  \label{table:problems}
+    \begin{tiny}
+    \begin{tabular}{lll} \hline
+    \textbf{Level} & \textbf{Potential Problems} & \textbf{Potential Solutions}\\ \hline
+    Patient & Poor palatability & Switch to Polyethylene glycol-electrolyte solution with flavor\\
+     & & \ \ packets of 4 flavors attached to bottle and no sulfur taste\\
+     & & Chill bowel preparation \\
+     & & Mix with flavor powders or non-red juice \\
+     & Unable to drink fast enough due to volume or nausea & Anti-emetics\\
+     & \ \ (assuming obstruction not suspected) or altered mental status & \\
+     & \ \ (i.e. delirium or dementia) & \\
+     & & Nasogastric Tube\\
+     & Not following instructions & Patient education handout \\
+     & & Family involvement\\
+     & Inpatient status $\pm$ underlying risk factors for poor bowel preparation & Consider 6-L bowel preparation \\
+     & & Consider 2-day bowel preparation\\
+     & Flushes bowel movement before nurse evaluating & Nursing places toilet hat when close to ready \\
+     & & \\
+    Nursing & Floor nurse protocol cannot require bedside checks more frequently & Encourage family to help \\
+     & \ than every 4 h & \\
+     & & Recruit medical assistant participation \\
+     & & Use of technology for reminders\\
+     & Unclear importance of bowel preparation and instructions & Standardize instructions\\
+     & \ highly variable & \\
+     & & Nursing education sessions\\
+     & & Endoscopy and floor nurses discuss day prior to procedure\\
+     & Original nurse communication with instructions acknowledged by & Instructions in medication order so viewable when administering\\ 
+     & \ day shift nurse and not viewed by night shift nurse & Orderset with timed instructions \\
+     & Variable reporting of readiness for procedure & Nursing education and picture of readiness on patient education\\
+     & & Toilet hat\\
+     & & Endoscopy and floor nurses discuss morning of procedure\\
+     & & \\
+    Physician & Preparation recommended by gastroenterology highly variable & Create protocol for standardization \\
+     & \ \ leading to confusion & \\
+     & Instructions from gastroenterology not clear and/or written in notes & Electronic note templates for easy use in gastroenterology notes\\
+     & Due to nature of complex inpatient consult service, decision-to- & Set mutually agreed upon expectation for early communication\\
+     & \ \ scope communicated late (i.e., after 6 pm) to primary team & \ \ by gastroenterology with a set latest time (i.e., 4 pm)\\
+     & Ordering suppositories and enemas as “rescue” in the morning leads & Using more bowel preparation instead of suppositories\\
+     & \ \ to false sense patient is clear when right side of colon is not & \ \ and enemas \\
+     & & Conversion to 2-day preparation \\
+     & Boston Bowel Preparation Score not properly documented. This & Scoring education \\
+     & \ \ could be knowledge gap or due to busy inpatient consult service & Document score in Brief-Op note immediately post-procedure for \\
+     & \ \ while scoping. Procedure notes written at end of day leading to & \ \ reference later when writing procedure note\\
+     & \ \ memory and bias & \\
+     & Primary team orders differently than gastroenterology & Primary team education \\
+     & recommendations & Orderset \\
+     & & \\
+    System & Amount of bowel preparation consumed not documented & Fellow or nurse go to bedside to document amount drank\\
+     & & Educate nursing day prior to document in medical record\\
+     & Lag time between order and administration & Stock bowel preparation in pyxis on specific floors\\
+     & Long chain of communication: GI, primary team, day nurse, & Set protocol for communication expectations, note templates, \\
+     & \ \ night nurse & \ \ ordersets \\
+     & Dietary keeps flavor mix packs and nursing unable to get after & Stock flavor packs on floor or use Polyethylene glycol-electrolyte \\
+     & \ \ certain hour & \ \ solution with flavor packets of 4 flavors attached to bottle \\ \hline
+    \end{tabular}
+    \end{tiny}
+ \end{table}
+ \end{flushleft}
+%\end{document} 

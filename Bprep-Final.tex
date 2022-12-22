@@ -1,0 +1,310 @@
+% -*- mode: LaTeX; TeX-PDF-mode: t; -*-
+\input{./econtexRoot}\documentclass[Bprep]{subfiles}
+% WARNING: AuCTeX local variables only get reset when file is loaded
+% and differ between this file and Bprep.tex
+% so must re-load whichever file you want to compile with C-x C-v
+
+% WARNING: Different AucTeX execution depending on whether
+% 0. Being compiled as standalone document
+% * Compile main to completion
+% * Then compile this one
+% * Keep compiling until nothing changes
+% 0. Being compiled as subfile of main document
+% * Just compile main document repeatedly
+
+\input{./econtexRoot}\input{\LaTeXInputs/econtex_onlyinsubfile}
+\onlyinsubfile{\externaldocument{Bprep}} % Get xrefs -- esp to apndx -- from main file; only works if main file has already been compiled
+
+% % Redefine commands from sty file to signal compilation from master
+
+\providecommand{\versn}{pdf} % Version; like, web or pdf or journal submission
+
+%\newcommand{\thankstext}{
+%  The paper's results \href{https://\owner.github.io/nbreproduce}{can be automatically reproduced} using the {\ARKurl} toolkit, which can be cited per our references (\cite{carroll_et_al-proc-scipy-2018}); for reference to the toolkit itself see \href{https://econ-ark.org/acknowledging}{Acknowleding Econ-ARK}.  Thanks to the \href{https://consumerfinance.gov}{Consumer Financial Protection Bureau} for funding the original creation of the {\ARKurl} toolkit; and to the \href{https://sloan.org}{Sloan Foundation} for funding Econ-ARK's \href{https://sloan.org/grant-detail/8071}{extensive further development} that brought it to the point where it could be used for this project.  The toolkit can be cited with its digital object identifier, \href{https://doi.org/10.5281/zenodo.1001067}{10.5281/zenodo.1001067}, as is done in the paper's own references as \cite{carroll_et_al-proc-scipy-2018}.  Thanks to Will Du, James Feigenbaum, Joseph Kaboski, Miles Kimball, Qingyin Ma, Misuzu Otsuka, Damiano Sandri, John Stachurski, Adam Szeidl, Alexis Akira Toda, Metin Uyanik, Mateo Vel\'asquez-Giraldo, Weifeng Wu,  Jiaxiong Yao, and Xudong Zheng for comments on earlier versions of this paper, John Boyd for help in applying his weighted contraction mapping theorem, Ryoji  Hiraguchi for extraordinary mathematical insight that improved the  paper greatly, David Zervos for early guidance to the literature, and participants in a seminar at the Johns Hopkins University, a presentation at the 2009 meetings of the Society of Economic Dynamics for their insights, and at a presentation at the Australian National University.}
+
+% \newcommand{\inframe}{https://\LHeconomics.github.io/Bprep/Bprep3.html}
+
+% Embed metadata
+\hypersetup{pdfauthor={Lawrence C. H. Hsu <LHeconomics@jhmi.edu>},
+  pdftitle={A Patient-centered Framework for Health Systems Engineering in Gastroenterology},
+  pdfkeywords={Improving Inpatient Colonoscopy Bowel Preparation},
+  pdfnewwindow=true,
+  pdfcreator = {LHeconomics@jhmi.edu}
+}
+
+\begin{document}
+
+% Attempted to make all lines used for Web version contain {Web} (or version with only single curly brace at end) so can be removed with sed
+\ifthenelse{\boolean{Web}}{    % {Web}
+  \renewcommand{\versn}{Web}     % Too hard to figure out passing -output-directory through make4ht through htlatex, so web version is compiled with junk files in main directory
+  \renewcommand{\rootFromOut}{.} % {Web}
+}{}  % {Web}
+
+
+% Tiny info header at top tracks git commit
+\hfill{\tiny \jobname~\versn~\today~{at} \DTMcurrenttime, \input{\ResourcesDir/.git-source-commit}~~\input{\ResourcesDir/.git-public-commit}}
+
+\title{\Large A Patient-Centered Framework for Health Systems\\Engineering in Gastroenterology:\\Improving Inpatient Colonoscopy Bowel Preparation}
+
+\author{Alexandra T. Strauss, Jennifer Yeh, Diego A. Martinez,\\ Gayane Yenokyan, Janet Yoder, Ravi Nehra, Tara Feller,\\Kathy Bull-Henry, Ellen Stein, Lawrence C. H. Hsu\authNum,\\Haitham Al-Grain, Candice Zabko, Christopher Fain}
+
+\keywords{Colonoscopy, Bowel Preparation, Quality Improvement,\\Health Systems Engineering}
+
+\jelclass{D04, D61, I11 \par
+  \href{https://econ-ark.org}{\includegraphics{\ResourcesDir/PoweredByEconARK}}
+}
+
+% \date{\today}
+\renewcommand{\forcedate}{February 27, 2021}\date{\forcedate}
+
+\maketitle
+\hypertarget{abstract}{}
+\begin{abstract}
+\textbf{Background}
+  Inpatient colonoscopy bowel preparation (ICBP) is frequently inadequate and can lead to adverse events, delayed or repeated procedures, and negative patient outcomes. Guidelines to overcome the complex factors in this setting are not well established. Our aims were to use health systems engineering principles to comprehensively evaluate the ICBP process, create an ICBP protocol, increase adequate ICBP, and decrease length of stay. Our goal was to provide adaptable tools for other institutions and procedural specialties.
+
+\textbf{Methods}
+  Patients admitted to our tertiary care academic hospital that underwent inpatient colonoscopy between July 3, 2017 to June 8, 2018 were included. Our multi-disciplinary team created a protocol employing health systems engineering techniques (i.e., process mapping, cause-effect diagrams, and plan-do-study-act cycles). We collected demographic and colonoscopy data. Our outcome measures were adequate preparation and length of stay. We compared pre-intervention (120 ICBP) vs. post-intervention (129 ICBP) outcomes using generalized linear regression models. Our new ICBP protocol included: split-dose 6-L polyethylene glycol-electrolyte solution, a gastroenterology electronic note template, and an education plan for patients, nurses, and physicians.
+
+\textbf{Results}
+The percent of adequate ICBPs significantly increased with the intervention from 61\% pre-intervention to 74\% post-intervention (adjusted odds ratio of 1.87, p-value = 0.023). The median length of stay decreased by approximately 25\%, from 4 days pre-intervention to 3 days post-intervention (p-value = 0.11).
+
+\textbf{Conclusions}
+  By addressing issues at patient, provider, and system levels with health systems engineering principles, we addressed patient safety and quality of care provided by improving rates of adequate ICBP.
+\end{abstract}
+
+% Various resources
+\hypertarget{links}{}
+
+\newcommand{\REMARK}{\href{https://github.com/econ-ark/REMARK}{REMARK}}
+\begin{footnotesize}
+  \parbox{0.9\textwidth}{
+%    \begin{center}
+%      \begin{tabbing}
+%        \texttt{~~~\REMARK:~} \= \= \texttt{\url{https://econ-ark.org/materials/bufferstocktheory}} \\
+%        \texttt{Dashboard:~} \> \> \texttt{\href{https://econ-ark.org/materials/bufferstocktheory}{Click `Launch Dashboard' Button}} \\
+%        \texttt{~~~~~html:~} \> \> \texttt{\href{https://\owner.github.io/Bprep/}{https://\owner.github.io/Bprep/}} \\ % Owner is defined in Resources/owner.tex
+%        \texttt{~~~~~~PDF:~} \> \> \texttt{\href{https://github.com/\owner/Bprep/blob/master/LaTeX/Bprep.pdf}{Bprep.pdf}} \\
+%        \texttt{~~~Slides:~} \> \> \texttt{\href{https://github.com/\owner/Bprep/blob/master/LaTeX/Bprep-Slides.pdf}{Bprep-Slides.pdf}} \\
+%        \texttt{~Appendix:~} \> \> \texttt{\url{https://\owner.github.io/Bprep/Bprep3.html#Appendices}}    \\
+%        \texttt{~~~GitHub:~} \> \> \texttt{\href{https://github.com/\owner/Bprep}{https://github.com/\owner/Bprep}} \\
+%      \end{tabbing}
+%    \end{center}
+    % The \href{https://econ-ark.org/materials/bufferstocktheory\?dashboard}{dashboard} lets users see consequences of alternative parameters in an interactive framework.
+  } % end \parbox{\textwidth}
+\end{footnotesize}
+
+\begin{authorsinfo}
+  \name{Contact: \href{mailto:LHeconomics@jhmi.edu}{\texttt{LHeconomics@jhmi.edu}}, Applied Economics, Johns Hopkins University, Washtington, DC 21229.}
+\end{authorsinfo}
+
+\pagenumbering{gobble} % Prevent numbering for pages including the TOC and title page
+
+
+\ifthenelse{\boolean{Web}}{
+}{
+  \begin{minipage}{0.9\textwidth}
+    \footnotesize The paper's results \href{https://\owner.github.io/nbreproduce}{can be automatically reproduced} using the {\ARKurl} toolkit by executing the \href{https://econ-ark.org/materials/bufferstocktheory}{notebook}; for reference to the toolkit itself see \href{https://econ-ark.org/acknowledging}{Acknowleding Econ-ARK}.  Thanks to the \href{https://consumerfinance.gov}{Consumer Financial Protection Bureau} for funding the original creation of the {\ARKurl} toolkit; and to the \href{https://sloan.org}{Sloan Foundation} for funding Econ-ARK's \href{https://sloan.org/grant-detail/8071}{extensive further development} that brought it to the point where it could be used for this project.  The toolkit can be cited with its digital object identifier, \href{https://doi.org/10.5281/zenodo.1001067}{https://doi.org/10.5281/zenodo.1001067}, as is done in the paper's own references as Carroll \textit{et al} (2018.)  Thanks to Will Du, James Feigenbaum, Joseph Kaboski, Miles Kimball, Qingyin Ma, Misuzu Otsuka, Damiano Sandri, John Stachurski, Adam Szeidl, Alexis Akira Toda, Metin Uyanik, Mateo Vel\'asquez-Giraldo, Weifeng Wu,  Jiaxiong Yao, and Xudong Zheng for comments on earlier versions of this paper, John Boyd for help in applying his weighted contraction mapping theorem, Ryoji  Hiraguchi for extraordinary mathematical insight that improved the  paper greatly, David Zervos for early guidance to the literature, and participants in a seminar at the Johns Hopkins University, a presentation at the 2009 meetings of the Society of Economic Dynamics for their insights, and at a presentation at the Australian National University.
+  \end{minipage}
+
+  \titlepagefinish\pagebreak
+  \let\LaTeXStandardContentsName\contentsname
+  \renewcommand{\contentsname}{}
+  \tableofcontents
+  \pagebreak
+
+  \medskip\medskip
+  \begin{minipage}{0.9\textwidth}
+    \listoffigures
+  \end{minipage}
+
+  \medskip\medskip
+  \begin{minipage}{0.9\textwidth}
+    \listoftables
+  \end{minipage}
+} % {Web}
+\pagebreak
+\hypertarget{Background}{}
+\section{Background}\label{sec:Background}
+\setcounter{page}{0}\pagenumbering{arabic}
+
+Effective colonoscopy is dependent on adequate bowel preparation by consuming a bowel cleansing medication prior to the procedure to allow for visualization of the colonic mucosa. Since colonoscopes are performed to evaluate for cancer, bleeding vessels, and other mucosal or structural abnormalities, visualization is paramount. A common problem is when hospitalized patients undergo bowel preparation for an inpatient colonoscopy, they frequently have an aborted procedure because the bowel preparation has failed (i.e., solid stool). This results in repeat bowel preparation, repeat or delayed procedures, compromised patient experience, and inefficient use of resources in the endoscopy unit.\\
+
+Bowel preparation can be compromised by many factors~\cite{Johnson2014-nm}; ~\cite{Garber2019-rw} including lower socioeconomic status ~\cite{Yadlapati2015-ej}, non-split dose bowel preparation, advanced age~\cite{Chung2009-kt}, male sex~\cite{Yadlapati2015-ej}, unmarried status~\cite{Lebwohl2010-ti}, narcotic use ~\cite{Garber2019-rw},~\cite{Yadlapati2015-ej}; ~\cite{Govani2016-rb}; ~\cite{Reilly2004-tz}, laxatives~\cite{Yadlapati2015-ej}; ~\cite{Reilly2004-tz}, tricyclic antidepressants~\cite{Ness2001-ff}; ~\cite{Govani2016-rb}; ~\cite{Hautefeuille2014-yy}, diabetes mellitus~\cite{Reilly2004-tz}, chronic constipation~\cite{Reilly2004-tz}; ~\cite{Hautefeuille2014-yy}, cirrhosis~\cite{Ness2001-ff}, stroke, and dementia~\cite{Ness2001-ff}. Bowel preparation can also be compromised by poor compliance~\cite{Ness2001-ff}; ~\cite{Hautefeuille2014-yy}; ~\cite{Chorev2007-ka} and intolerance of preparation, such as vomiting~\cite{Hautefeuille2014-yy}. Many of this prior work has focused on the outpatient setting as opposed to the inpatient environment. Hospitalized patients have additional risk factors that impact inpatient colonoscopy bowel preparations (ICBP). Studies have demonstrated ICBP rated as inadequate in about 65\% of patients~\cite{Garber2019-rw}; ~\cite{Chambers2016-al}. The inpatient risk factors include acute illness, urgent indication for procedure, decreased level of mobility, timing, and coordination with other treatments and procedures~\cite{Garber2019-rw}; ~\cite{Ness2001-ff}; ~\cite{Lebwohl2010-ti}; ~\cite{Chorev2007-ka}. Furthermore, inpatient status has been shown to be an independent predictor of inadequate ICBP~\cite{Ness2001-ff}; ~\cite{Livovsky2017-ds}; ~\cite{Almadi2018-lx}; ~\cite{Mahmood2018-xt}. The consequences of an inadequate ICBP include repeat procedures, increased length of stay
+(LOS)~\cite{Garber2019-rw}, and increased costs~\cite{Yadlapati2015-ej}; ~\cite{Livovsky2017-ds}.\\
+
+Targeted interventions to improve ICBP have demonstrated success in specific situations to address patient and provider level factors. Such interventions include nursing education~\cite{Rosenfeld2010-kx}; ~\cite{Lee2015-iw}, electronic nursing stool assessments~\cite{Yadlapati2018-kg}, split-dose bowel preparation~\cite{Yadlapati2018-kg}; ~\cite{Argyropoulos2018-cg}, patient education~\cite{Chambers2016-al}; ~\cite{Ergen2014-ve}, and standardized order sets~\cite{Yadlapati2018-kg}; ~\cite{Argyropoulos2018-cg}; ~\cite{Yang2014-ya}. However, a knowledge gap exists for evidence-based guidelines since prior studies that have evaluated complex strategies for a good ICBP have not provided tools or comprehensive protocols as part of the publication to facilitate implementation elsewhere~\cite{Yadlapati2018-kg}.\\
+
+Health Systems Engineering (HSE) methods and tools (e.g., tracers, process mapping, cause-effect diagrams) are designed with the patient in mind to assess current complex systems, to improve processes (e.g., statistical process control charts), and to minimize variability (e.g., Lean process improvement)~\cite{Harry2010-ty}; ~\cite{Barnes2021-xy}; ~\cite{Ross2014-da}. HSE principles have addressed a wide range of healthcare related problems successfully~\cite{Watts2013-xv}; ~\cite{Das2018-jo}; ~\cite{Silva2010-so}. We hypothesize that using HSE principles and a multi-disciplinary team to perform a comprehensive analysis of the ICBP process can identify barriers and sustainable solutions. Our primary aim was to increase the absolute percentage of adequate and timely ICBP for our institution's hospitalized patients by 10\% within 6 months.\\
+
+Although a modest goal, it will form a foundation for continued improvement. Further, we believe the effects of a 10\% improvement will be meaningful for both patients and providers. Our secondary objectives were to reduce LOS associated with the ICBP process. Our overall goal for this manuscript is to provide a detailed and transparent presentation of the HSE tools used for problem analysis that hospitalists, gastroenterologists, and other proceduralists can adapt to their institutions.
+
+% Keep track of where you are via header at top of PDF
+\ifthenelse{\boolean{Web}}{}{% else
+  \automark{subsection}
+} % {Web}
+
+\hypertarget{Methods}{}
+\section{Methods}
+\hypertarget{Context}{}
+\subsection{Context}\label{subsec:Context}
+
+In this quality improvement (QI) project at an academic tertiary care center, recognizing the complexity of intervening across multiple systems, such as primary care teams, gastroenterology consulting services, and the endoscopy unit, is important. Typically, providers have individual ICBP preferences, so understanding the culture regarding openness to change is important for a successful intervention.\\
+
+Our sample included all patients that were hospitalized before and after the intervention that met the inclusion and exclusion criteria. Inclusion criteria were patients 18-years-old or older who had a non-emergent (i.e., noncritical care patients) inpatient colonoscopy. We included patients who underwent a colonoscopy in the 15-week pre-intervention period of July 3, 2017 to October 13, 2017 and the 15-week post-intervention period of February
+26, 2018 to June 8, 2018. The period between groups was for intervention development and deployment. Exclusion criteria were patients in the intensive care unit, colonic foreign body, or colonic pseudo-obstruction. Our QI project was exempt by IRB and followed SQUIRE guidelines~\cite{Ogrinc2016-yz}. The main ethical consideration was that there may be specific patient situations or concerns that require flexibility for providers to use clinical judgement to make adjustments to the protocol when necessary. This study was otherwise minimal ethical risk to patients.\\
+
+\subsection{Intervention}
+\hypertarget{Intervention}{}
+\subsubsection{Phase 1: Comprehensive Analysis of ICBP Process to Identify Barriers}\label{subsec:IntPhase1}
+
+We identified key stakeholders in the ICBP process and formed a multi-disciplinary team: residents, fellows, gastroenterologists, floor and endoscopy nurses, anesthesiologists, and pharmacists. The team defined the current ICBP process using HSE methods. One method was performing a tracer which is when team members observe the process from the initial step (i.e., decision to perform colonoscopy) through each additional step (i.e., nurse acts on order). Other HSE methods included creating a process map and cause-effect diagram. A process map involves the team drawing each step of the process
+including by not limited to patient movement and communication of information between providers. The team analyzed the process map for efficiency and safety. A cause-effect diagram is also created by the team and identifies all possible mechanisms leading to the outcome and categorizes them (e.g., supply problem, communication issue).\\
+
+\subsubsection{Phase 2: Solutions \& Intervention Development}\label{subsec:IntPhase2}
+
+After reviewing the findings from Phase 1, subsequent solutions were then systematically brainstormed among our team to develop an intervention. The team identified that the high variability seen throughout the process led to many of the causes for a poor ICBP, so we decided a standardized protocol would be the necessary intervention. We designed arms of the protocol to address issues at the various levels of providers. Selection of aspects of
+the protocol were based on the quality of evidence in the literature and prioritization based on local subject matter expert experience. Operational practicalities were also considered. For example, we focused on changes our division could implement first as this is where we had the most control as opposed to infringing on operations outside of gastroenterology (i.e., scheduling procedure times). A preliminary ICBP protocol was piloted on the inpatient gastroenterology (GI) unit. The protocol went through multiple Plan-Do-Study-Act (PDSA) cycles (including additional tracers/observations, editing the process map, etc.) on the GI unit and again hospital-wide prior to our final ICBP protocol (Fig. \ref{fig:method}) ~\cite{Langley2009-al}.\\
+
+\subsection{Measures}\label{subsec:Measures}
+\hypertarget{Measures}{}
+
+We collected data about patient demographics, primary team, indications for procedure, and average weekly hospital occupancy. Occupancy is a potential confounder because a busier hospital may impact the intervention and outcomes such as shortening length of stay due to incentive to discharge patients quickly. We measured the effect of the intervention by comparing the number of adequate bowel preparations before and after the intervention. An adequate ICBP was defined as a total Boston Bowel Preparation Score (BBPS) $\geq$ 6 and all segment scores $\geq$ 2 or procedure description equivalent to ``adequate" when score not provided.\\
+
+Within the inpatient setting, a case may be delayed due to several factors unrelated to ICBP, such as acute non-GI related decompensation, dialysis, procedures, and patient preferences. Also, our intervention included improving nurse and patient recognition of readiness for procedure, which may increase delays in procedure. This delay would be preferable to having a timely procedure that is unsuccessful. Therefore, the primary outcome was percentage of ``good ICBP". ``Good ICBP" was defined as adequate ICBP at initial colonoscopy regardless if procedure was delayed to the next day. The secondary outcomes were percent of ``ideal ICBP", which was defined as adequate ICBP and colonoscopy on the day as originally planned, and the
+LOS. LOS was defined as the date of discharge minus the date of first bowel preparation dose administration to eliminate unrelated pre-colonoscopy hospitalization time.\\
+
+\subsection{Study of Intervention \& Analysis}\label{subsec:SoIA}
+\hypertarget{Study of Intervention \& Analysis}{}
+
+Demographic characteristics of patients and hospital crowdedness pre- and post-intervention were compared using t-tests and Wilcoxon sum rank tests for continuous variables, and chi-square and Fisher's exact tests for categorical variables. We created a run chart to evaluate the process over time. A run chart is a health system engineering approach to evaluating the performance and changes in a process~\cite{Perla2011-dp}. We were looking in the post-intervention period to see points above the baseline and less variation.\\
+
+Generalized linear models estimated changes in outcomes before and after the intervention. Gaussian distribution with logarithmic link was used for LOS
+and binomial distribution with logit link was used for good and ideal preparation; these estimated percent changes in LOS and odds of good and ideal preparation, respectively. The models used linear splines for time to estimate~\cite{Johnson2014-nm} pre-intervention trend: the change
+in average outcome per week during the pre-intervention period;~\cite{Garber2019-rw} the immediate effect of the intervention, reported as the change comparing the first week of the post-intervention period with the last week of the pre-intervention period; and~\cite{Yadlapati2015-ej} post-intervention trend: the sustained effect of the intervention reported as the change in the outcomes per week during the post-intervention period. The models included patient-specific robust variance estimates~\cite{Rogers1994-ta} to account for within-patient correlation due to repeated bowel preparation episodes in the same patient. If no statistically significant change per week (time trend) was observed in either pre- or post-intervention periods, the model was reduced to using one indicator variable for intervention as the primary predictor (coded as 0 for pre- and 1 for post-intervention period), without allowing for the time trends. This base model was extended to include additional adjustment for variables that differed between intervention and control periods. All tests were conducted at 0.05 level of statistical significance. The statistical analysis was performed using STATA version 15 software program~\cite{StataCorp2017-tq}.\\
+
+\section{Results}
+\hypertarget{Results}{}
+\subsection{Phase 1}\label{subsec:ResPhase1}
+\hypertarget{Phase 1}{}
+
+The tracer and process map (Figure \ref{fig:process}) identified key steps and decision points in the old ICBP process. The process started with the initial decision to scope made by the GI team which were comprised of fellows and attendings and were the same mix of experience levels throughout our entire study. Next, the primary team (residents, attendings, and advanced practitioners)placed orders, not consultants. Several steps performed by the patient, physicians, nurses, and pharmacists are performed on the day prior to the procedure and the morning of the procedure.\\
+
+In the cause-effect diagram, causes for a poor ICBP based on our old process were placed into 6 categories: patient, supply, order, timing, provider, and communication. For example, we determined that orders for procedures were being placed late in the day due to late communication from GI to primary team of the procedure. Therefore, the patient was drinking the bowel preparation late into the evening. Another
+problem identified was patient education about the ICBP process was based solely on verbal communication as opposed to having supplemental visual aids. We found high variability in bowel preparation recommendations with the predominant approach being a single dose of 4-L the night before procedure. We determined that palatability was a problem because juices and powders used to improve the flavor of the solution were used infrequently because they were difficult to obtain by nurses. Lastly, we uncovered there was no standardization in the use of nasogastric tubes and in the time of day inpatient colonoscopies were scheduled.\\
+
+\input{../Figures/Fig_1.tex}
+
+\subsection{Phase 2}\label{subsec:ResPhase2}
+\hypertarget{Phase 2}{}
+
+During the study phase of each PDSA cycle, we performed additional tracers and iterative discussions with patients and front-line providers at various points. For example, we engaged with the front line to discuss when an ICBP was performed on a floor where ICBPs are infrequently performed. These PDSA cycles allowed us to address key aspects of ICBP that were previously unspecified, such as nursing and patient concerns, tolerance of nasogastric tubes, and anti-emetic use. We developed several solutions described in detail below that contributed to our final protocol.\\
+
+Early verbal communication by 4 p.m. of decision to scope to the primary team allowed time for pharmacy to deliver preparation medications and for nursing to prepare the medication. Since prior studies have demonstrated inpatients have a higher incidence of poor ICBP~\cite{Garber2019-rw}; ~\cite{Ness2001-ff}; ~\cite{Lebwohl2010-ti}; ~\cite{Chorev2007-ka}; ~\cite{Livovsky2017-ds}; ~\cite{Mahmood2018-xt} and guidelines recommend 6-L bowel preparation for acute lower GI bleeding~\cite{Saltzman2015-ir}, our protocol included a 6L split-dose regimen with polyethylene glycol-electrolyte solution (PEG-ELS) with dose adjustment as needed. Based on recent publications, the use of polyethylene glycol (PEG) 3350 was phased out of practice at our institution and a sulfur-free version was added to formulary~\cite{Argyropoulos2018-cg}; ~\cite{Saltzman2015-ir}; ~\cite{Hjelkrem2011-ow}. The ICBP start time for the first dose of 4-L was between 4 p.m. and 6 p.m. the night prior to procedure at a rate of 1L per hour which allowed the patient to sleep. The second dose of 2-L started at 5 a.m. and completed by 7 a.m.. Nurses used toilet specimen collectors to accurately assess stool for adequacy of ICBP. Enemas and suppositories were previously used as ``rescue" in the morning were phased out of practice as they did not reach the right colon. Following evidence-based anesthesia recommendations~\cite{Johnson2014-nm}; ~\cite{American_Society_of_Anesthesiologists_Committee2011-sw}; ~\cite{Agrawal2016-nn}, the inpatient colonoscopies were scheduled for a start time at 10 a.m. which allowed 2-3 h after completion of the morning dose.\\
+
+We addressed communication between GI and primary team using a simple IT solution. Electronic Health Record (EHR) note templates were placed prominently in the recommendations section of the consultation note to streamline clear communication to the primary team and nursing. The templates included primary team and nursing instructions, recommendations for anti-emetics, steps to improve palatability, and the use of nasogastric tubes, where appropriate. Since the use of nasogastric tubes is recommended per guidelines for high volume bowel preparation~\cite{Saltzman2015-ir}, their use at the discretion of the GI and primary team was determined a priori. ICBP education was provided to patients, nurses, and physicians in the form of information sessions, point-of-care training, and handouts. Using the Pareto Principle, an engineering concept that a small percentage of participants
+constitute the majority of the action of interest, we identified the few nursing units and primary teams performing the most ICBP. We initially targeted these units and teams with education sessions, and these sessions were later expanded to include most other residents and nursing units in the hospital. Our patient education handout was described the importance a good ICBP, pictures, and frequently asked questions~\cite{Lai2009-xr}. Figure \ref{fig:protocol} shows the final protocol which includes an example of templated text in the electronic health record.\\
+
+\input{../Figures/Fig_2.tex}
+
+There were 120 and 129 bowel preparation episodes in 119 and 128 patients in the pre- and post-intervention groups, respectively. Table \ref{table:character} shows the patient characteristics in the pre- and post-intervention periods. The individual factors of age, sex, race, ethnicity, primary team of internal medicine, and indications for procedure were similar between groups. The most common indication was bleeding. The system factor of hourly bed occupancy
+was a measure of how busy the hospital was in the week of ICBP and was statistically significantly higher in the post-intervention group. Therefore, we adjusted for this in the regression model.\\
+
+\input{../Tables/Table_1.tex}
+
+We calculated the percentage of planned colonoscopies per week that resulted in a good ICBP for the pre-intervention period. The median percentage of good ICBP for the pre-intervention period was identified as our baseline which was 66.7\%. We used this baseline to compare our post-intervention period. Each week, we evaluated our intervention through PDSA cycles using the new data as a guide. Figures \ref{fig:runchart}, \ref{fig:method} shows a run chart of the percentage
+of good ICBP by week for the pre- and post-intervention periods. A ``shift", 6 or more consecutive points above the baseline~\cite{Perla2011-dp}, is seen from week 18 to week 25. One-point deviations, such as the one seen in week 26, are considered noise in the process due to the stochastic
+nature hospital processes, so the focus is on trends. Looking overall at this run chart, one can appreciate the improvement in good ICBP and increased consistency in the post-intervention period.\\
+
+\input{../Figures/Fig_3.tex}
+
+\input{../Figures/Fig_4.tex}
+
+Prior to intervention there was no statistically significant time trend (the percentage of adequate ICBP was not increasing or decreasing) which demonstrated the intervention was not following an already upward trajectory of improving ICBP. Similarly, we did not observe statistically
+significant time trend in the post-intervention period which demonstrates stability of the impact of the intervention over time. For example, if we had found a downward trend in ICBP in the post-intervention period, we would be concerned the intervention effect was not sustained. Thus, below we report the results of the models with intervention as the primary predictor to evaluate the impact of the intervention. In addition, since the pre and post periods had different occupancy levels, this variable was added to the model for adjustment.\\
+
+Our regression model showed the pre-intervention percent of good ICBP was 61\% compared to 74\% after the intervention with estimated odds ratio of a good ICBP comparing post- to pre-intervention of 1.87 (95\% CI 1.09-3.21, p-value = 0.02). The estimated odds ratio did not substantially change after adjustment for average weekly occupancy (Table \ref{table:estimates}).\\
+
+The regression analysis showed that before the intervention the percent of ideal ICBPs was 53\% compared to 69\% after the intervention. The estimated odds ratio of ideal ICBP comparing post- to pre-intervention was 1.95 (95\% CI 1.16-3.27, p-value = 0.01). The estimated odds ratio of ideal ICBP did not substantially change after adjustment for average weekly occupancy. There was estimated 25\% decrease in LOS in the post intervention compared to pre-intervention period, from mean of 8 days in the pre-intervention period to mean of 6 days in the post-intervention period. This decline, however,
+did not reach statistical significance (95\% CI 0.54-1.07, p-value = 0.1).\\
+
+\input{../Tables/Table_2.tex}
+
+\section{Discussion}
+\hypertarget{Discussion}{}
+\subsection{Summary}\label{subsec:Summary}
+\hypertarget{Summary}{}
+
+This study demonstrated that HSE principles and a multi-disciplinary team can be used to identify problems in the ICBP process and to implement solutions such as multi-faceted education and IT interventions to significantly improve the number of adequate ICBP. A strength of this study was the systematic problem analysis and standardization through a comprehensive protocol. Additionally, the ICBP intervention immediately improved adequate ICBP which was sustained for 15 weeks in the post-intervention period.\\
+
+This intervention decreased mean LOS by 25\%. Although this failed to reach statistical significance, during the study period our institution had an overall increase in LOS. Thus, decreasing LOS by 25\% was important clinically and small improvements in LOS can have substantial impact on hospital throughput. However, it is difficult to interpret the change in estimates in unadjusted versus adjusted models since the relationship between occupancy and LOS is difficult to untangle. Many factors interplay that could lead to increase in one leading to an increase or decrease in the other. Our study shows that after controlling for occupancy this intervention impacts LOS, but more work is needed to determine strategies to have a larger effect.\\
+
+\subsection{Interpretation \& Lessons Learned}\label{subsec:ILL}
+\hypertarget{Interpretation \& Lessons Learned}{}
+
+The comprehensive list of identified problems and solutions to the ICBP process are outlined in Table \ref{table:problems}. These are likely common in most institutions, so this table can serve as an initial guide for others. Early, effective communication about the decision to scope is critical. Early morning ICBP consumption between 12 a.m. to 5 a.m. generally is to be avoided when the patient is likely more prone to falling. This study highlights the many stakeholders, including patients, involved in the ICBP process. Therefore, educating everyone about their role in the ICBP process and the importance of an adequate bowel preparation (i.e., diagnosis, treatment, and adverse events or repeat procedures) is paramount. Standardizing our protocol to 6-L was simply one aspect of our multi-pronged approach and was adjusted on an individual basis based on clinical judgement. Our success with 6-L is aligned with the literature~\cite{Argyropoulos2018-cg} that also suggests better outcomes with high volume for inpatients. Randomized controlled trials are needed to validate the populations that would derive maximal benefit from this approach.\\
+
+\subsection{Limitations}\label{subsec:Limitations}
+\hypertarget{Limitations}{}
+
+As with any QI study there are some methodologic limitations. Firstly, this is a single-center QI study conducted at a tertiary medical institution with a high-volume inpatient colonoscopy case load. Therefore, the generalizability may be limited (e.g., secondary hospitals), so future studies at multiple centers with varying patient populations would be useful. Notably, the sample size was reasonably large with 249 ICBP episodes; however, a larger sample may have led to a larger effect size for LOS. Although we cannot make inference about which specific part of our new ICBP protocol led to the greatest
+improvement in ICBP, we have shown that a comprehensive approach is possible despite the difficulty of coordinating many moving parts. Secondly, this QI project occurred over the course of an academic year. Consequently, there may have been sampling bias, and we were not able to control for increased experience from new residents and fellows partially contributing to improved ICBP. For example, there may have been variation in the scoring of the BBPS as this was not explicitly calibrated in this study; however, all fellows were trained similarly on the BBPS, so their scoring was likely standardized across people and time. The sustainability and significant improvements in ICBP seen suggest that the experience of trainees would not negate these findings. Thirdly, this study did not control for some elements that are known to increase risk of a poor bowel preparation (i.e., certain comorbidities, past failed bowel preparations, and narcotics) due to limited data availability, so this could have led to an increased risk of bias. Future research may prospectively address comorbidities and the effects of this protocol on patient satisfaction, quality of life, compliance, and adequacy of ICBP.\\
+
+\input{../Tables/Table_3.tex}
+
+\section{Conclusion}\label{subsec:Conclusion}
+\hypertarget{Conclusion}{}
+
+This study highlights how HSE techniques when combined with a multi-disciplinary team, multi-faceted education, and information technology interventions can be used to improve complex hospital processes such as ICBP to improve overall patient care and important hospital metrics such as LOS.\\
+
+The sustainability of QI interventions is important to provide long-term quality care. We showed an immediate improvement that was sustained over the entire 15 weeks post-intervention. The protocol changed fundamental systems components of the ICBP process that will enable long-term culture change. Furthermore, this QI intervention paves the way for implementation of an electronic order set version of the protocol. Building on interventions centered on education with IT solutions can help to sustain the project's positive effects.\\
+
+To sustain an effective ICBP protocol, we continued to reinforce this change in culture around ICBP by performing education sessions after our intervention period. Education sessions with nursing and primary teams emphasized the importance of a good ICBP, the timing of the ICBP, and common pitfalls. Meaningful time points for education are either monthly meetings with residents or nurses and at transition points in training (i.e., new trainees in July). Other important sustainability components are periodic project updates for stakeholders and identifying units that are top performers
+to be champions and motivate other units. Following this intervention, the patient handout was made viewable on our institution's patient education website and printable directly from the EHR which increased compliance.\\
+
+Utilizing HSE approaches have been generalized to improve the care of patients in various medical areas~\cite{Watts2013-xv}; ~\cite{Das2018-jo}; ~\cite{Silva2010-so}, and we have presented ICBP is another example. We have been forthcoming and transparent about our techniques and process, so our colleagues in GI and other procedural fields have an initial framework to apply locally and adapt to their specific problematic processes. By addressing issues at patient, provider, and system levels with health systems engineering principles, patient safety and quality care can be meaningfully improved.
+
+% % The paper's results are all easily reproducible \href{https://econ-ark.org/_materials/Bprep?launch}{interactively on the web} or \href{https://github.com/econ-ark/Bprep}{on any standard computer system}.  Such reproducibility reflects the paper's use of the open-source {\ARKurl} toolkit, which is used to generate all of the quantitative results of the paper, and which integrally incorporates all of the analytical insights of the paper.
+
+% % The Dummy equation below sems to be needed to get the equation numbering in the appendix
+% % reliably to start at the next number after the last actual equation number used in the paper
+
+% \clearpage\vfill\eject
+% \begin{equation*}
+%   \label{eq:Dummy}
+% \end{equation*}
+
+% \onlyinsubfile{\bibliography{
+% \texname, % subfile inherits texname from preamble of parent
+% \econtexBib % Default bib database is in Resources/LaTeXInputs
+% }}
+
+\onlyinsubfile{\input{\LaTeXInputs/bibliography_blend}}
+% Do not include appendix figures and tables in ToC unless for Web version
+\ifthenelse{\boolean{Web}}{}{
+\onlyinsubfile{\captionsetup[figure]{list=no}}
+\onlyinsubfile{\captionsetup[table]{list=no}}
+}
+\end{document}
+
+\endinput
+
+% If you are editing in Emacs-AucTeX, modify the lines below for your system (otherwise ignore)
+% Local Variables:
+% eval: (setq TeX-command-list  (assq-delete-all (car (assoc "BibTeX" TeX-command-list)) TeX-command-list))
+% eval: (setq TeX-command-list  (assq-delete-all (car (assoc "BibTeX" TeX-command-list)) TeX-command-list))
+% eval: (setq TeX-command-list  (assq-delete-all (car (assoc "BibTeX" TeX-command-list)) TeX-command-list))
+% eval: (setq TeX-command-list  (assq-delete-all (car (assoc "Biber"  TeX-command-list)) TeX-command-list))
+% eval: (add-to-list 'TeX-command-list '("BibTeX" "bibtex LaTeX/%s" TeX-run-BibTeX nil t                                                                              :help "Run BibTeX") t)
+% eval: (add-to-list 'TeX-command-list '("BibTeX" "bibtex LaTeX/%s" TeX-run-BibTeX nil (plain-tex-mode latex-mode doctex-mode ams-tex-mode texinfo-mode context-mode) :help "Run BibTeX") t)
+% TeX-PDF-mode: t
+% TeX-file-line-error: t
+% TeX-debug-warnings: t
+% LaTeX-command-style: (("" "%(PDF)%(latex) %(file-line-error) %(extraopts) -output-directory=LaTeX %S%(PDFout)"))
+% TeX-source-correlate-mode: t
+% TeX-parse-self: t
+% eval: (cond ((string-equal system-type "darwin")    (progn (setq TeX-view-program-list '(("Skim" "/Applications/Skim.app/Contents/SharedSupport/displayline -b %n LaTeX/%o %b"))))))
+% eval: (cond ((string-equal system-type "gnu/linux") (progn (setq TeX-view-program-list '(("Evince" "evince --page-index=%(outpage) LaTeX/%o"))))))
+% eval: (cond ((string-equal system-type "gnu/linux") (progn (setq TeX-view-program-selection '((output-pdf "Evince"))))))
+% TeX-parse-all-errors: t
+% End:

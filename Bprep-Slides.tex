@@ -1,0 +1,236 @@
+% -*- mode: LaTeX; TeX-PDF-mode: t; -*-
+\input{./econtexRoot}\input{\ResourcesDir/owner}
+\documentclass[pdflatex]{beamer}
+\usepackage{ifthen}
+\newboolean{Web}\setboolean{Web}{false}
+\usepackage{econark}
+\providecommand{\texname}{Bprep-Slides}%
+
+% Can't read in Bprep.sty because some packages conflict with Beamer
+% So need to redefine everything here
+
+\usepackage{econark}
+\usepackage{\econtexShortcuts}
+\usepackage{\LaTeXInputs/\texname}
+
+\setboolean{showPageHead}{false}
+
+\usepackage{amsmath,amssymb,rotating,subfigure}
+\usepackage{verbatim,moreverb,graphicx}
+\usepackage{wasysym}
+\usepackage{dcolumn}
+\usepackage{cancel}
+%\renewcommand{\LtxDir\EqDir}{\econtexRoot/Equations}
+\providecommand{\FigsRaw}{\econtexRoot/Code/Python/Figures}
+\providecommand{\CodeDir}{\econtexRoot/Code}
+\providecommand{\CalibrationDir}{\econtexRoot/Calibration}
+\providecommand{\TableDir}{\econtexRoot/Tables}
+\providecommand{\ApndxDir}{\econtexRoot/Appendices}
+\providecommand{\Ex}{\mathbb{E}}
+
+\usepackage{bibentry}
+\usepackage[backend=bibtex,style=authoryear]{biblatex}
+\addbibresource{Bprep.bib}
+
+
+\mode<presentation>
+{
+  \usetheme{Warsaw}
+  % or ...
+  \setbeamercovered{transparent}
+}
+
+%\beamerdefaultoverlayspecification{<+->}
+
+%\setbeamertemplate{navigation symbols}{}  % Take away navigation symbols
+
+\usetheme{Warsaw}
+
+\setbeamersize{text margin left=3mm}
+\setbeamersize{text margin right=3mm}
+
+
+%_____________ Opening slide _______________________
+
+\title[Bowel Prep Improvements]{A Patient-centered Framework for Health Systems Engineering in Gastroenterology}
+\author[Hsu]{Lawrence Hsu}
+\institute[JHU]{Johns Hopkins University}
+\date[\today]{September 12, 2019  \\ \medskip \medskip \medskip \href{https://econ-ark.org/}{\small Powered By} \\ \includegraphics[width=0.5in]{\econtexRoot/Resources/econ-ark-logo-small.png}}
+
+\begin{document}
+
+\begin{frame}[plain]
+  \titlepage
+\end{frame}
+
+
+\section{Introduction}
+\subsection{Background}
+
+\begin{frame}
+\frametitle{Rationale of Improving Bowel Preparation}
+
+\begin{itemize}
+\item Inpatient Colonoscopy Scheduled $\Rightarrow$ Bowel Prep Began
+\item What happens with {\it inadequate} bowel preps (clinically)? 
+\begin{itemize}
+\item Adverse Events (\cite{Almadi2018-lx})
+\item Delayed or Repeated Procedures (\cite{Ness2001-ff})
+\item Negative Patient Outcome (\cite{Garber2019-rw})
+\end{itemize}
+\medskip
+\item Improvement Goal: Medicine Alternation
+\end{itemize}
+
+\end{frame}
+
+\subsection{Control Features}
+\begin{frame}
+\frametitle{Elements Impacting Bowel Prep Results}
+
+\begin{itemize}
+\item Socioeconomic Status \& Gender (\cite{Yadlapati2018-kg})
+\item Age (\cite{Chung2009-kt})
+\item Marriage Status (\cite{Lebwohl2010-ti})
+\item Complications:
+\begin{itemize}
+  \item Diabetes Mellitus (\cite{Reilly2004-tz})
+  \item Chronic Constipation (\cite{Hautefeuille2014-yy})
+  \item Cirrhosis (\cite{Ness2001-ff})
+\end{itemize}
+\item {\bf Poor Compliance} (\cite{Almadi2018-lx})
+\end{itemize}
+
+\medskip
+\begin{itemize}
+  \item Phase 1 Control before Medication Differences
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Individualized Characteristics}
+\input{./Tables/Table_1.tex}
+\end{frame}
+
+\section{Process Changes}
+\subsection{Protocol for Bowel Prep}
+\begin{frame}
+\frametitle{Initiated Protocol for Bowel Prep}
+    \begin{figure}
+        \centerline{\includegraphics[width=0.75\linewidth]{\FigDir/Figure2.jpg}}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{How the Medication Change Work}
+
+\begin{itemize}
+\item Lower GI Bleed (\cite{Saltzman2015-ir})
+\item Ref: \cite{American_Society_of_Anesthesiologists_Committee2011-sw}
+\medskip
+\item Additional Requirement: {\bf Patient Education} (\cite{Lai2009-xr})
+\medskip
+\item The old way: one dose with 4-L of polyethylene glycol (PEG)
+\item Renewed method: 4-L $+$ 2-L doses of glycol-electrolyte solution
+\begin{itemize}
+  \item Verbal Communication by 4 p.m. of the Decision
+  \item 4-L Dose between 4 p.m. and 6 p.m. Prior to Colonoscopy
+  \item 2-L Dose between 5 a.m. and 7 a.m. On the Colonoscopy Date
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\subsection{How the Flow Chart Changes}
+\begin{frame}
+\frametitle{Workflow Identifying Medication Alteration}
+    \begin{figure}
+        \centerline{\includegraphics[width=0.75\linewidth]{\FigDir/Figure1.jpg}}
+    \end{figure}
+\end{frame}
+
+\section{Modeling the Improvements}
+\subsection{Capturing the BBPS Score}
+\begin{frame}
+\frametitle{Runchart Capturing Preparation Score}
+\begin{itemize}
+    \item Boston Bowel Preparation Score (BBPS): Visibility by Radiology
+    \item Creating Runcharts for Trending (\cite{Perla2011-dp})
+\end{itemize}
+    \begin{figure}
+        \centerline{\includegraphics[width=0.6\linewidth]{\FigDir/Figure3.jpg}}
+    \end{figure}
+\end{frame}
+
+\subsection{Model Factors (Tests Applied)}
+\begin{frame}
+\frametitle{Study of Intervention and Analysis}
+\begin{itemize}
+  \item Good ICBP: Procedure delayed, but bowel prep successful 
+  \item Ideal ICBP: Procedure on time, and bowel prep successful
+\end{itemize}
+\medskip
+\begin{itemize}
+    \item Pre- and Post-Intervention: T-test, Wilcoxon Sum Rank Test
+    \item Categorical Variables: Chi-square Test, Fisher's Exact Test
+    \item Linear Splines for Time Estimates (\cite{Johnson2014-nm})
+\end{itemize}
+
+\end{frame}
+
+\subsection{Modeling Results}
+\begin{frame}
+\frametitle{Results of the Analysis}
+\begin{itemize}
+    \item Improvements on Both ICBP Status
+    \item Improvements on Length of Stay
+\end{itemize}
+\input{./Tables/Table_2.tex}
+\end{frame}
+
+\subsection{Conclusion and Limitations}
+\begin{frame}
+\frametitle{Conclusion and Limitations}
+\begin{itemize}
+  \item This is only a single-center QI study with high patient volume
+  \item Length of Stay estimation: multipliers \& flow uncertainties
+\end{itemize}
+\medskip
+\begin{itemize}
+    \item Difficult to control certain comorbidities
+    \item The unknown status we want to know: {\bf Past Failed Bowel Preps}
+    \item Compliance measurements (with qualitative input)
+\end{itemize}
+\medskip
+\begin{itemize}
+  \item Still, this is a piece of literature showing the necessity to alter golden-standard medication for bowel prep (PEG-GES)
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Qualitative Input: Next Steps}
+\begin{figure}
+\includegraphics[width=0.5\linewidth]{./Tables/Table_3.jpg}
+\end{figure}
+\end{frame}
+
+\end{document}
+
+% Local Variables:
+% TeX-master-file: t
+% eval: (setq TeX-command-list  (assq-delete-all (car (assoc "BibTeX" TeX-command-list)) TeX-command-list))
+% eval: (setq TeX-command-list  (assq-delete-all (car (assoc "Biber"  TeX-command-list)) TeX-command-list))
+% eval: (setq TeX-command-list  (remove '("BibTeX" "%(bibtex) ../LaTeX/%s"    TeX-run-BibTeX nil t :help "Run BibTeX") TeX-command-list))
+% eval: (setq TeX-command-list  (remove '("BibTeX"    "bibtex ../LaTeX/%s"    TeX-run-BibTeX nil (plain-tex-mode latex-mode doctex-mode ams-tex-mode texinfo-mode context-mode)  :help "Run BibTeX") TeX-command-list))
+% eval: (setq TeX-command-list  (remove '("BibTeX" "bibtex ../LaTeX/%s"    TeX-run-BibTeX nil t :help "Run BibTeX") TeX-command-list))
+% eval: (add-to-list 'TeX-command-list '("BibTeX" "bibtex LaTeX/%s" TeX-run-BibTeX nil t                                                                              :help "Run BibTeX") t)
+% eval:  (add-to-list 'TeX-command-list '("BibTeX" "bibtex LaTeX/%s" TeX-run-BibTeX nil (plain-tex-mode latex-mode doctex-mode ams-tex-mode texinfo-mode context-mode) :help "Run BibTeX") t)
+% TeX-PDF-mode: t
+% TeX-file-line-error: t
+% TeX-debug-warnings: t
+% LaTeX-command-style: (("" "%(PDF)%(latex) %(file-line-error) %(extraopts) -output-directory=./LaTeX %S%(PDFout)"))
+% TeX-source-correlate-mode: t
+% TeX-parse-self: t
+% TeX-parse-all-errors: t
+% eval: (cond ((string-equal system-type "darwin") (progn (setq TeX-view-program-list '(("Skim" "/Applications/Skim.app/Contents/SharedSupport/displayline -b %n LaTeX/%o %b"))))))
+% eval: (cond ((string-equal system-type "gnu/linux") (progn (setq TeX-view-program-list '(("Evince" "evince --page-index=%(outpage) LaTeX/%o"))))))
+% eval: (cond ((string-equal system-type "gnu/linux") (progn (setq TeX-view-program-selection '((output-pdf "Evince"))))))

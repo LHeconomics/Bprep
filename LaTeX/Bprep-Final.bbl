@@ -1,0 +1,275 @@
+\providecommand{\noopsort}[1]{} \providecommand{\singleletter}[1]{#1}
+  \providecommand{\noopsort}[1]{} \providecommand{\singleletter}[1]{#1}
+\ifx\undefined\BySame
+\newcommand{\BySame}{\leavevmode\rule[.5ex]{3em}{.5pt}\ }
+\fi
+\begin{thebibliography}{}
+
+\harvarditem[Agrawal, Elsbernd, Singal, and Rockey]{Agrawal, Elsbernd, Singal,
+  and Rockey}{2016}{Agrawal2016-nn}
+\textsc{Agrawal, Deepak, Benjamin Elsbernd, Amit~G Singal,  {and} Don Rockey}
+  (2016): ``Gastric Residual Volume After Split-dose Compared with
+  Evening-before Polyethylene Glycol Bowel Preparation,''
+  \emph{Gastrointestinal endoscopy}, 83(3), 574--580.
+
+\harvarditem[Almadi, Alharbi, Azzam, Altayeb, Thaniah, and Aljebreen]{Almadi,
+  Alharbi, Azzam, Altayeb, Thaniah, and Aljebreen}{2018}{Almadi2018-lx}
+\textsc{Almadi, Majid~A, Othman Alharbi, Nahla Azzam, Mohannad Altayeb, Salem
+  Thaniah,  {and} Abdulrahman Aljebreen}  (2018): ``Bowel Preparation Quality
+  Between Hospitalized Patients and Outpatient Colonoscopies,'' \emph{Saudi
+  journal of gastroenterology: official journal of the Saudi Gastroenterology
+  Association}, 24(2), 93--99.
+
+\harvarditem[{American Society of Anesthesiologists Committee}]{{American
+  Society of Anesthesiologists
+  Committee}}{2011}{American_Society_of_Anesthesiologists_Committee2011-sw}
+\textsc{{American Society of Anesthesiologists Committee}}  (2011): ``Practice
+  Guidelines for Preoperative Fasting and the Use of Pharmacologic Agents to
+  Reduce the Risk of Pulmonary Aspiration: Application to Healthy Patients
+  Undergoing Elective Procedures: An Updated Report by the American Society of
+  Anesthesiologists Committee on Standards and Practice Parameters,''
+  \emph{Anesthesiology}, 114(3), 495--511.
+
+\harvarditem[Argyropoulos, Kashif~Mahmood, Campbell, and Richter]{Argyropoulos,
+  Kashif~Mahmood, Campbell, and Richter}{2018}{Argyropoulos2018-cg}
+\textsc{Argyropoulos, Sarah~K, S~Kashif~Mahmood, Emily~J Campbell,  {and}
+  James~M Richter}  (2018): ``Improving the Quality of Inpatient Bowel
+  Preparation for Colonoscopies,'' .
+
+\harvarditem[Barnes, Acosta, Kurlander, and Sales]{Barnes, Acosta, Kurlander,
+  and Sales}{2021}{Barnes2021-xy}
+\textsc{Barnes, Geoffrey~D, Jennifer Acosta, Jacob~E Kurlander,  {and} Anne~E
+  Sales}  (2021): ``Using Health Systems Engineering Approaches to Prepare for
+  Tailoring of Implementation Interventions,'' \emph{Journal of general
+  internal medicine}, 36(1), 178--185.
+
+\harvarditem[Chambers, Whiteman, Stephens, Goodloe, and Kirsteen]{Chambers,
+  Whiteman, Stephens, Goodloe, and Kirsteen}{2016}{Chambers2016-al}
+\textsc{Chambers, Karen, Kimberly Whiteman, Kimberly Stephens, Lauren Goodloe,
+  {and} Hal Kirsteen}  (2016): ``Improving Inpatient Colonoscopy Preparation in
+  a University Hospital: An Evidence-based Practice Project,''
+  \emph{Gastroenterology nursing: the official journal of the Society of
+  Gastroenterology Nurses and Associates}, 39(2), 86--94.
+
+\harvarditem[Chorev, Chadad, Segal, Shemesh, Mor, Plaut, Fraser, Geller, Gal,
+  and Niv]{Chorev, Chadad, Segal, Shemesh, Mor, Plaut, Fraser, Geller, Gal, and
+  Niv}{2007}{Chorev2007-ka}
+\textsc{Chorev, Nechama, Bracha Chadad, Negba Segal, Ilana Shemesh, Meli Mor,
+  Shlomit Plaut, Gerald Fraser, Alex Geller, Eyal Gal,  {and} Yaron Niv}
+  (2007): ``Preparation for Colonoscopy in Hospitalized Patients,'' .
+
+\harvarditem[Chung, Han, Park, Kim, Park, Hahn, Yoo, Park, Kim, and
+  Park]{Chung, Han, Park, Kim, Park, Hahn, Yoo, Park, Kim, and
+  Park}{2009}{Chung2009-kt}
+\textsc{Chung, Yong~Woo, Dong~Soo Han, Kwang~Hyuk Park, Kyoung~Oh Kim,
+  Cheol~Hee Park, Taeho Hahn, Kyo-Sang Yoo, Sang~Hoon Park, Jong~Hyeok Kim,
+  {and} Choong~Kee Park}  (2009): ``Patient Factors Predictive of Inadequate
+  Bowel Preparation Using Polyethylene Glycol: A Prospective Study in Korea,''
+  \emph{Journal of clinical gastroenterology}, 43(5), 448--452.
+
+\harvarditem[Das, Benneyan, Powers, Carmody, Kerwin, and Singer]{Das, Benneyan,
+  Powers, Carmody, Kerwin, and Singer}{2018}{Das2018-jo}
+\textsc{Das, Partha, James Benneyan, Linda Powers, Matthew Carmody, Joanne
+  Kerwin,  {and} Sara Singer}  (2018): ``Engineering Safer Care Coordination
+  from Hospital to Home: Lessons from the {USA},'' \emph{Future healthcare
+  journal}, 5(3), 164--170.
+
+\harvarditem[Ergen, Pasricha, Higginbotham, Hubbard, Slaughter, and
+  Obstein]{Ergen, Pasricha, Higginbotham, Hubbard, Slaughter, and
+  Obstein}{2014}{Ergen2014-ve}
+\textsc{Ergen, William~F, Trisha Pasricha, Tina Higginbotham, Francie~J
+  Hubbard, James~C Slaughter,  {and} Keith~L Obstein}  (2014): ``Use of an
+  Educational Booklet Improves the Quality of Inpatient Colonoscopy Bowel
+  Preparation: Results of a Prospective Randomized Controlled Trial,'' .
+
+\harvarditem[Garber]{Garber}{2019}{Garber2019-rw}
+\textsc{Garber, Ari}  (2019): ``Modifiable Factors Associated with Quality of
+  Bowel Preparation Among Hospitalized Patients Undergoing Colonoscopy,'' .
+
+\harvarditem[Govani, Elliott, Menees, Judd, Saini, Anastassiades, Urganus,
+  Boyce, and Schoenfeld]{Govani, Elliott, Menees, Judd, Saini, Anastassiades,
+  Urganus, Boyce, and Schoenfeld}{2016}{Govani2016-rb}
+\textsc{Govani, Shail~M, Eric~E Elliott, Stacy~B Menees, Stephanie~L Judd,
+  Sameer~D Saini, Constantinos~P Anastassiades, Annette~L Urganus, Suzanna~J
+  Boyce,  {and} Philip~S Schoenfeld}  (2016): ``Predictors of Suboptimal Bowel
+  Preparation in Asymptomatic Patients Undergoing Average-risk Screening
+  Colonoscopy,'' .
+
+\harvarditem[Harry, Mann, De~Hodgins, Hulbert, and Lacke]{Harry, Mann,
+  De~Hodgins, Hulbert, and Lacke}{2010}{Harry2010-ty}
+\textsc{Harry, Mikel~J, Prem~S Mann, Ofelia~C De~Hodgins, Richard~L Hulbert,
+  {and} Christopher~J Lacke}  (2010): \emph{Practitioner's Guide to Statistics
+  and Lean Six Sigma for Process Improvements}. John Wiley \& Sons.
+
+\harvarditem[Hautefeuille, Lapuelle, Chaussade, Ponchon, Richard~Molard,
+  Coulom, Laugier, Henri, and Cadiot]{Hautefeuille, Lapuelle, Chaussade,
+  Ponchon, Richard~Molard, Coulom, Laugier, Henri, and
+  Cadiot}{2014}{Hautefeuille2014-yy}
+\textsc{Hautefeuille, Ga{\"e}lle, Jean Lapuelle, Stanislas Chaussade, Thierry
+  Ponchon, B~Richard~Molard, Pierre Coulom, Ren{\'e} Laugier, Franck Henri,
+  {and} Guillaume Cadiot}  (2014): ``Factors Related to Bowel Cleansing Failure
+  Before Colonoscopy: Results of the {PACOME} Study,'' .
+
+\harvarditem[Hjelkrem, Stengel, Liu, Jones, and Harrison]{Hjelkrem, Stengel,
+  Liu, Jones, and Harrison}{2011}{Hjelkrem2011-ow}
+\textsc{Hjelkrem, Michael, Joel Stengel, Mark Liu, David~P Jones,  {and}
+  Stephen~A Harrison}  (2011): ``{MiraLAX} is Not as Effective as {GoLytely} in
+  Bowel Cleansing Before Screening Colonoscopies,'' \emph{Clinical
+  gastroenterology and hepatology: the official clinical practice journal of
+  the American Gastroenterological Association}, 9(4), 326--332.e1.
+
+\harvarditem[Johnson, Barkun, Cohen, Dominitz, Kaltenbach, Martel, Robertson,
+  Richard~Boland, Giardello, Lieberman, Levin, and Rex]{Johnson, Barkun, Cohen,
+  Dominitz, Kaltenbach, Martel, Robertson, Richard~Boland, Giardello,
+  Lieberman, Levin, and Rex}{2014}{Johnson2014-nm}
+\textsc{Johnson, David~A, Alan~N Barkun, Larry~B Cohen, Jason~A Dominitz, Tonya
+  Kaltenbach, Myriam Martel, Douglas~J Robertson, C~Richard~Boland, Frances~M
+  Giardello, David~A Lieberman, Theodore~R Levin,  {and} Douglas~K Rex}
+  (2014): ``Optimizing Adequacy of Bowel Cleansing for Colonoscopy:
+  Recommendations From the {US} {Multi-Society} Task Force on Colorectal
+  Cancer,'' .
+
+\harvarditem[Lai, Calderwood, Doros, Fix, and Jacobson]{Lai, Calderwood, Doros,
+  Fix, and Jacobson}{2009}{Lai2009-xr}
+\textsc{Lai, Edwin~J, Audrey~H Calderwood, Gheorghe Doros, Oren~K Fix,  {and}
+  Brian~C Jacobson}  (2009): ``The Boston Bowel Preparation Scale: A Valid and
+  Reliable Instrument for Colonoscopy-oriented Research,'' .
+
+\harvarditem[Langley, Moen, Nolan, Nolan, Norman, and Provost]{Langley, Moen,
+  Nolan, Nolan, Norman, and Provost}{2009}{Langley2009-al}
+\textsc{Langley, Gerald~J, Ronald~D Moen, Kevin~M Nolan, Thomas~W Nolan,
+  Clifford~L Norman,  {and} Lloyd~P Provost}  (2009): \emph{The Improvement
+  Guide: A Practical Approach to Enhancing Organizational Performance}. John
+  Wiley \& Sons.
+
+\harvarditem[Lebwohl, Wang, and Neugut]{Lebwohl, Wang, and
+  Neugut}{2010}{Lebwohl2010-ti}
+\textsc{Lebwohl, Benjamin, Timothy~C Wang,  {and} Alfred~I Neugut}  (2010):
+  ``Socioeconomic and Other Predictors of Colonoscopy Preparation Quality,'' .
+
+\harvarditem[Lee, Kim, Park, Cho, Jang, Chung, and Hwang]{Lee, Kim, Park, Cho,
+  Jang, Chung, and Hwang}{2015}{Lee2015-iw}
+\textsc{Lee, Yoo~Jin, Eun~Soo Kim, Kyung~Sik Park, Kwang~Bum Cho, Byoung~Kuk
+  Jang, Woo~Jin Chung,  {and} Jae~Seok Hwang}  (2015): ``Education for Ward
+  Nurses Influences the Quality of Inpatient's Bowel Preparation for
+  Colonoscopy,'' \emph{Medicine}, 94(34), e1423.
+
+\harvarditem[Livovsky, Horesh, Koslowsky, Milgrom, Goldin, and
+  Wengrower]{Livovsky, Horesh, Koslowsky, Milgrom, Goldin, and
+  Wengrower}{2017}{Livovsky2017-ds}
+\textsc{Livovsky, Dan~M, Anat Horesh, Benjamin Koslowsky, Yael~M Milgrom, Eran
+  Goldin,  {and} Dov Wengrower}  (2017): ``Risk Factors for Low Quality Bowel
+  Cleansing in Hospitalized and Ambulatory Patients Undergoing Colonoscopy, a
+  Large Retrospective Study,'' \emph{Gastrointestinal endoscopy}, 85(5),
+  AB263--AB264.
+
+\harvarditem[Mahmood, Farooqui, and Madhoun]{Mahmood, Farooqui, and
+  Madhoun}{2018}{Mahmood2018-xt}
+\textsc{Mahmood, Sultan, Samid~M Farooqui,  {and} Mohammad~F Madhoun}  (2018):
+  ``Predictors of Inadequate Bowel Preparation for Colonoscopy: A Systematic
+  Review and Meta-analysis,'' \emph{European journal of gastroenterology \&
+  hepatology}, 30(8), 819--826.
+
+\harvarditem[Ness]{Ness}{2001}{Ness2001-ff}
+\textsc{Ness, R}  (2001): ``Predictors of Inadequate Bowel Preparation for
+  Colonoscopy,'' \emph{The American journal of gastroenterology}, 96(6),
+  1797--1802.
+
+\harvarditem[Ogrinc, Davies, Goodman, Batalden, Davidoff, and Stevens]{Ogrinc,
+  Davies, Goodman, Batalden, Davidoff, and Stevens}{2016}{Ogrinc2016-yz}
+\textsc{Ogrinc, Greg, Louise Davies, Daisy Goodman, Paul Batalden, Frank
+  Davidoff,  {and} David Stevens}  (2016): ``Standards for Quality Improvement
+  Reporting Excellence 2.0: Revised Publication Guidelines from a Detailed
+  Consensus Process,'' \emph{The Journal of surgical research}, 200(2),
+  676--682.
+
+\harvarditem[Perla, Provost, and Murray]{Perla, Provost, and
+  Murray}{2011}{Perla2011-dp}
+\textsc{Perla, Rocco~J, Lloyd~P Provost,  {and} Sandy~K Murray}  (2011): ``The
+  Run Chart: A Simple Analytical Tool for Learning from Variation in Healthcare
+  Processes,'' \emph{BMJ quality \& safety}, 20(1), 46--51.
+
+\harvarditem[Reilly and Walker]{Reilly and Walker}{2004}{Reilly2004-tz}
+\textsc{Reilly, Timothy,  {and} Grace Walker}  (2004): ``Reasons for Poor
+  Colonic Preparation with Inpatients,'' \emph{Gastroenterology nursing: the
+  official journal of the Society of Gastroenterology Nurses and Associates},
+  27(3), 115--117.
+
+\harvarditem[Rogers]{Rogers}{1994}{Rogers1994-ta}
+\textsc{Rogers, William}  (1994): ``Regression Standard Errors in Clustered
+  Samples,'' \emph{Stata Technical Bulletin}, 3(13).
+
+\harvarditem[Rosenfeld, Krygier, Enns, Singham, Wiesinger, and
+  Bressler]{Rosenfeld, Krygier, Enns, Singham, Wiesinger, and
+  Bressler}{2010}{Rosenfeld2010-kx}
+\textsc{Rosenfeld, Greg, Darin Krygier, Robert~A Enns, Janakie Singham, Holly
+  Wiesinger,  {and} Brian Bressler}  (2010): ``The Impact of Patient Education
+  on the Quality of Inpatient Bowel Preparation for Colonoscopy,''
+  \emph{Canadian journal of gastroenterology = Journal canadien de
+  gastroenterologie}, 24(9), 543--546.
+
+\harvarditem[Ross and Bidanda]{Ross and Bidanda}{2014}{Ross2014-da}
+\textsc{Ross, Barry~T,  {and} Bopaya Bidanda}  (2014): ``A Brief History of
+  Health Systems Engineering - Its Early Years Through 1989: An Industrial
+  Engineering Perspective,'' \emph{IIE transactions on healthcare systems
+  engineering}, 4(4), 217--229.
+
+\harvarditem[Saltzman, Cash, Pasha, Early, Muthusamy, Khashab, Chathadi,
+  Fanelli, Chandrasekhara, Lightdale, Fonkalsrud, Shergill, Hwang, Decker, Jue,
+  Sharaf, Fisher, Evans, Foley, Shaukat, Eloubeidi, Faulx, Wang, and
+  Acosta]{Saltzman, Cash, Pasha, Early, Muthusamy, Khashab, Chathadi, Fanelli,
+  Chandrasekhara, Lightdale, Fonkalsrud, Shergill, Hwang, Decker, Jue, Sharaf,
+  Fisher, Evans, Foley, Shaukat, Eloubeidi, Faulx, Wang, and
+  Acosta}{2015}{Saltzman2015-ir}
+\textsc{Saltzman, John~R, Brooks~D Cash, Shabana~F Pasha, Dayna~S Early,
+  V~Raman Muthusamy, Mouen~A Khashab, Krishnavel~V Chathadi, Robert~D Fanelli,
+  Vinay Chandrasekhara, Jenifer~R Lightdale, Lisa Fonkalsrud, Amandeep~K
+  Shergill, Joo~Ha Hwang, G~Anton Decker, Terry~L Jue, Ravi Sharaf, Deborah~A
+  Fisher, John~A Evans, Kimberly Foley, Aasma Shaukat, Mohamad~A Eloubeidi,
+  Ashley~L Faulx, Amy Wang,  {and} Ruben~D Acosta}  (2015): ``Bowel Preparation
+  Before Colonoscopy,'' \emph{Gastrointestinal endoscopy}, 81(4), 781--794.
+
+\harvarditem[Silva, da~Silva, Meier, Sanches, Simonette, and Spina]{Silva,
+  da~Silva, Meier, Sanches, Simonette, and Spina}{2010}{Silva2010-so}
+\textsc{Silva, Katia Cilene Neles~da, Katia Cilene~Neles da~Silva, Frederico
+  Meier, Fabio Sanches, Marcel Simonette,  {and} Edison Spina}  (2010): ``Needs
+  for a Systems Engineering Process Based on Human Factors for e-Health Systems
+  Implementation,'' .
+
+\harvarditem[StataCorp]{StataCorp}{2017}{StataCorp2017-tq}
+\textsc{StataCorp, L L~C}  (2017): ``Stata Statistical Software. College
+  Station,'' .
+
+\harvarditem[Watts, Shiner, Ceyhan, Musdal, Sinangil, and Benneyan]{Watts,
+  Shiner, Ceyhan, Musdal, Sinangil, and Benneyan}{2013}{Watts2013-xv}
+\textsc{Watts, Bradley~V, Brian Shiner, Mehmet~E Ceyhan, Hande Musdal, Seda
+  Sinangil,  {and} James Benneyan}  (2013): ``Health Systems Engineering as an
+  Improvement Strategy: A Case Example Using {Location-Allocation} Modeling,''
+  .
+
+\harvarditem[Yadlapati, Johnston, Gluskin, Gregory, Cyrus, Werth, Ciolino,
+  Grande, and Keswani]{Yadlapati, Johnston, Gluskin, Gregory, Cyrus, Werth,
+  Ciolino, Grande, and Keswani}{2018}{Yadlapati2018-kg}
+\textsc{Yadlapati, Rena, Elyse~R Johnston, Adam~B Gluskin, Dyanna~L Gregory,
+  Rachel Cyrus, Lindsay Werth, Jody~D Ciolino, David~P Grande,  {and} Rajesh~N
+  Keswani}  (2018): ``An Automated Inpatient Split-dose Bowel Preparation
+  System Improves Colonoscopy Quality and Reduces Repeat Procedures,'' .
+
+\harvarditem[Yadlapati, Johnston, Gregory, Ciolino, Cooper, and
+  Keswani]{Yadlapati, Johnston, Gregory, Ciolino, Cooper, and
+  Keswani}{2015}{Yadlapati2015-ej}
+\textsc{Yadlapati, Rena, Elyse~R Johnston, Dyanna~L Gregory, Jody~D Ciolino,
+  Andrew Cooper,  {and} Rajesh~N Keswani}  (2015): ``Predictors of Inadequate
+  Inpatient Colonoscopy Preparation and Its Association with Hospital Length of
+  Stay and Costs,'' \emph{Digestive diseases and sciences}, 60(11), 3482--3490.
+
+\harvarditem[Yang, Summerlee, Rajca, Williamson, LeLaurin, McClellan, Collins,
+  and Sultan]{Yang, Summerlee, Rajca, Williamson, LeLaurin, McClellan, Collins,
+  and Sultan}{2014}{Yang2014-ya}
+\textsc{Yang, Dennis, Robert Summerlee, Brian Rajca, Jonathan~B Williamson,
+  Jennifer LeLaurin, Lasheaka McClellan, Dennis Collins,  {and} Shahnaz Sultan}
+   (2014): ``A Pilot Study to Evaluate the Feasibility of Implementing a
+  Split-dose Bowel Preparation for Inpatient Colonoscopy: A Single-center
+  Experience,'' \emph{BMJ open gastroenterology}, 1(1), e000006.
+
+\end{thebibliography}

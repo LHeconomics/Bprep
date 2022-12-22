@@ -1,0 +1,18 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Background}{1}{section.5}%
+\contentsline {section}{\numberline {2}Methods}{3}{section.6}%
+\contentsline {subsection}{\numberline {2.1}Context}{3}{subsection.7}%
+\contentsline {subsection}{\numberline {2.2}Intervention}{3}{subsection.8}%
+\contentsline {subsubsection}{\numberline {2.2.1}Phase 1: Comprehensive Analysis of ICBP Process to Identify Barriers}{3}{subsubsection.9}%
+\contentsline {subsubsection}{\numberline {2.2.2}Phase 2: Solutions \& Intervention Development}{4}{subsubsection.10}%
+\contentsline {subsection}{\numberline {2.3}Measures}{4}{subsection.11}%
+\contentsline {subsection}{\numberline {2.4}Study of Intervention \& Analysis}{5}{subsection.12}%
+\contentsline {section}{\numberline {3}Results}{5}{section.13}%
+\contentsline {subsection}{\numberline {3.1}Phase 1}{5}{subsection.14}%
+\contentsline {subsection}{\numberline {3.2}Phase 2}{6}{subsection.16}%
+\contentsline {section}{\numberline {4}Discussion}{11}{section.22}%
+\contentsline {subsection}{\numberline {4.1}Summary}{11}{subsection.23}%
+\contentsline {subsection}{\numberline {4.2}Interpretation \& Lessons Learned}{12}{subsection.24}%
+\contentsline {subsection}{\numberline {4.3}Limitations}{12}{subsection.25}%
+\contentsline {section}{\numberline {5}Conclusion}{13}{section.27}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
